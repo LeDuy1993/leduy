@@ -1,0 +1,142 @@
+body{
+    background-image: url(images/Webbia.jpg);
+    position: relative;
+}
+#div2{
+    /* background-color: blueviolet; */
+    float: right;
+    position: absolute;
+    right: 150px;
+    top: -5px;  
+}
+#div1{
+    position: absolute;
+    left: 200px;  
+   
+}
+
+#div1 ul li:hover ul{
+    display: block;   
+    left: -42px;
+    top: 30px;
+    margin: 1px;
+}
+#div1 ul li ul{
+    position: absolute;
+    display: none;
+    left: 0px;
+}
+
+#div1 ul li{ 
+    list-style: none;
+    float: left;
+    width: 100px;
+    padding: 5px;
+    border-radius:4px ;
+    background-color: teal;
+    margin-left: 5px;
+    position: relative; 
+}
+a{
+    text-decoration: none;
+    font-size: 17px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: blanchedalmond;
+
+}
+#div1 ul li:hover ul li {
+    margin: 1px; 
+}
+#div2 ul li{
+    float: right;
+    list-style: none;
+    margin: 3px;
+    text-align: center;
+    padding: 5px;
+    border-radius:4px ;
+
+}
+.li2{
+    background-color: teal;
+    width: 100px;
+}
+/* -------------Phân trên của tìm kiếm, phần dưới cho 3 div3  */
+#div31{
+    background-image: url(images/div.jpg);
+    position: absolute;
+    width: 400px;
+    height: 600px;
+    background-color: teal;
+    left: 50px;
+    top: 300px;
+    border-radius: 3%;
+    border: teal 1px solid;
+}
+#div32{
+    position: absolute;
+    width: 400px;
+    height: 600px;
+    background-color: teal;
+    left: 467px;
+    top: 300px;
+    border-radius: 3%;
+    background-image: url(images/div.jpg);
+    border: teal 1px solid;
+}
+
+#div33{
+    position: absolute;
+    width: 400px;
+    height: 600px;
+    background-color: teal;
+    top: 300px;
+right: 50px;
+border-radius: 3%;
+background-image: url(images/div.jpg);
+border: teal 1px solid;
+}
+p{
+    font-size:30px;
+}
+img{
+    height: 300px;
+    width: 200px;
+    float: right;
+}
+#Div31 p, #div33 p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    padding: 5px;
+}
+
+
+#div32 table tr td{
+    /* padding-top: -10px; */
+    height: 200px;
+    padding-left: 5px;
+    /* padding-top: 0px; */
+    /* border-collapse: collapse;
+    border: solid 1px teal; */
+}
+#div32 p{
+    padding: 0px;
+}
+h4{ margin-top: -50px;
+    margin-bottom: 5px;
+    color: teal;
+}
+h2{
+    margin-left: 10px;
+    margin-top: 10px;
+    color: teal;
+}
+#div32 b{
+    opacity: 0.5; 
+}
+#i1{
+    position: absolute;
+    left: 215px;
+}
+#narutop{
+    margin-top: -30px;
+}
