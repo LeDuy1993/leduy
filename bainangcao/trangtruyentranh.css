@@ -137,6 +137,8 @@ h2{
     position: absolute;
     left: 215px;
 }
-#narutop{
-    margin-top: -30px;
+.image1{
+    border-radius: 5px;
 }
+
+
