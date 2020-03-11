@@ -1,0 +1,36 @@
+<html>
+
+<head></head>
+
+<body>
+    <h4>Bài tập 6
+        Một số nguyên dương có n chữ số được gọi là số Armstrong khi tổng các lũy thừa bậc n
+        của các chữ số của nó bằng chính nó. Hãy viết chương kiểm tra xem một số nguyên dương N
+        nhập vào từ bàn phím có phải là số Armstrong hay không. Nếu phải thì xuất 'YES', ngược lại là 'NO'. <br>
+        VD: <br>
+        371 là số Armstrong vì: 3^3 + 7^3 + 1^3 = 371 <br>
+        8208 là số Armstrong vì: 8^4 + 2^4 + 8^4 = 8208</h4>
+</body>
+<script>
+    let n = +prompt("Số nguyên có n chữ số");
+    let number = parseInt(prompt("Enter a number: "));
+    number1 = number;
+    sum = 0;
+    while (number1>0) {
+        layDu = number1 % 10;
+        sumofdu = 1;
+        for (let a = 1; a <= n; a++) {
+            sumofdu = sumofdu*layDu;
+        }
+        sum = sum + sumofdu;
+        number1 = (number1 - layDu) / 10;
+    }
+    if (sum == number) {
+        document.write(number + "là số Armstrong.")
+    }
+    else {
+        document.write(number + "không là số Armstrong.")
+    }
+</script>
+
+</html>

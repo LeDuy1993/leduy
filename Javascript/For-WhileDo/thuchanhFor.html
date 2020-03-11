@@ -1,0 +1,22 @@
+<html>
+
+<body>
+    <h2>JavaScript For</h2>
+    <button onclick="click1()">Click</button>
+    <input type="number" id="number">
+    <p id="demo"></p>
+    <script>
+        function click1() {
+            let number = parseInt(document.getElementById("number").value);
+            let i=1; sum = 0; 
+            for (; i <= number; i+=1) {
+            sum += i; 
+        
+            }
+            document.getElementById("demo").innerHTML = sum ;
+        }
+    </script>
+
+</body>
+
+</html>

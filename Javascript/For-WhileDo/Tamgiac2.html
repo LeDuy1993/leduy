@@ -1,0 +1,50 @@
+<html>
+
+<head></head>
+
+<body>
+    <h3>Bài 3: In tam giác vuông. Các góc vuông nằm ở các vị trí khác nhau</h3>
+</body>
+<script>
+    
+    b = "";
+    a = 0;
+    for (a = 0; a <= 10; a++) {
+        b = b + "*";
+        document.write(b + "<br>");
+    }
+    ///
+    for (let number = 10; number >= 0; number--) {
+        document.write("<br>")
+        for (a = 0; a <= number; a++) { document.write("*") }
+    }
+    //
+    for (let number = 10; number >= 0; number--) {
+        document.write("<br>")
+        for (a = 0; a <= number; a++) { 
+            document.write('&nbsp&nbsp');
+ 
+        }
+        for (b = 0;b<= 10-number; b++) {
+            document.write("*");
+        }
+       
+
+    }
+    ///
+    for (let number = 10; number >= 0; number--) {
+        document.write("<br>")
+        for (b = 0;b<= 10-number; b++) {
+            document.write(" &nbsp");
+        }
+        for (a = 0; a <= number; a++) { 
+            document.write("*");
+
+        }
+    
+    }
+
+
+</script>
+
+</html>

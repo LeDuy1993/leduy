@@ -1,0 +1,31 @@
+<html>
+
+<head>
+    <style>
+        #no {
+            position: absolute;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Do You Love Me ??</h1>
+    <p id="oke"></p>
+    <button style="border-radius:10px; background-color: teal; color: white; " id="yes" onclick="yes()">YES</button>
+    <button onmouseover="random(no)" style="border-radius:10px; background-color: teal; color: white; "
+        id="no">NO</button>
+</body>
+<script>
+    function yes() {
+        document.getElementById("oke").innerHTML = "let go ---- Động phòng hoa chúc ";
+    }
+    function random(no) {
+        no.style.left = (Math.random()*500)+"px";
+        no.style.top = (Math.random()*500)+"px";
+
+    }
+
+
+</script>
+
+</html>

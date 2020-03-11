@@ -1,0 +1,184 @@
+<html>
+
+<head>
+    <style>
+        body {
+            position: relative;
+        }
+
+        div {
+            /* background-color: blueviolet; */
+            position: absolute;
+            height: 200px;
+            width: 200px;
+           
+        }
+
+        #div2 {
+            left: 203px;
+
+        }
+
+        #div3 {
+            top: 203px;
+        }
+
+        #div4 {
+            left: 203px;
+            top: 203px;
+        }
+
+        img {
+            position: absolute;
+            height: 200px;
+            width: 200px;
+            /* display: none; */
+        }
+    </style>
+</head>
+
+<body >
+
+    <div onclick="images1()">
+        <img id="no1"  class="group1" src="an_01.jpg" alt="">
+       
+   
+    </div>
+    <div onclick="images2()" id="div2" >
+        <img id="no2"  class="group2" src="an_02.jpg" alt="">
+        
+    </div>
+    <div  onclick="images3()" id="div3" > 
+        <img id="no3" class="group3" src="an_03.jpg" alt="">
+    
+    </div >
+    <div onclick="images4()"  id="div4">
+        <img id="no4" class="group4" src="an_04.jpg" alt="">
+      
+    </div>
+   
+
+</body>
+<script>
+    
+    function images1() {
+            let number1 = Math.floor(Math.random() * 5) + 1;
+            switch (number1) {
+                case 1:
+                document.getElementById("no1").src = "linh_01.jpg";
+                    a=1;
+                    break;
+                case 2:
+                    document.getElementById("no1").src = "an_01.jpg";
+                    a=2;
+                    break;
+                case 3:
+                    document.getElementById("no1").src = "ngao_01.jpg";
+                    a=3;
+                    break;
+                case 4:
+                    document.getElementById("no1").src = "phap_01.jpg";
+                    a=4;
+                    break;
+                case 5:
+                    a=5;
+                    document.getElementById("no1").src = "van_01.jpg";
+                    break;
+            }
+            if(number1==number2==number3==number4)  { div.style.boder = "red"} 
+        }
+         
+    function images2() {
+            let number2 = Math.floor(Math.random() * 5) + 1;
+            switch (number2) {
+                case 1:
+                document.getElementById("no2").src = "linh_02.jpg";
+                    a=1;
+                    break;
+                case 2:
+                    document.getElementById("no2").src = "an_02.jpg";
+                    a=2;
+                    break;
+                case 3:
+                    document.getElementById("no2").src = "ngao_02.jpg";
+                    a=3;
+                    break;
+                case 4:
+                    document.getElementById("no2").src = "phap_02.jpg";
+                    a=4;
+                    break;
+                case 5:
+                    a=5;
+                    document.getElementById("no2").src = "van_02.jpg";
+                    break;
+            }
+            if(number1==number2==number3==number4)  { div.style.boder = "red"} 
+        }
+        function images3() {
+            let number3 = Math.floor(Math.random() * 5) + 1;
+            switch (number3) {
+                case 1:
+                document.getElementById("no3").src = "linh_03.jpg";
+                    a=1;
+                    break;
+                case 2:
+                    document.getElementById("no3").src = "an_03.jpg";
+                    a=2;
+                    break;
+                case 3:
+                    document.getElementById("no3").src = "ngao_03.jpg";
+                    a=3;
+                    break;
+                case 4:
+                    document.getElementById("no3").src = "phap_03.jpg";
+                    a=4;
+                    break;
+                case 5:
+                    a=5;
+                    document.getElementById("no3").src = "van_03.jpg";
+                    break;
+            }
+            if(number1==number2==number3==number4)  { div.style.boder = "red"} 
+        }
+        function images4() {
+            let number4 = Math.floor(Math.random() * 5) + 1;
+            switch (number4) {
+                case 1:
+                document.getElementById("no4").src = "linh_04.jpg";
+                    a=1;
+                    break;
+                case 2:
+                    document.getElementById("no4").src = "an_04.jpg";
+                    a=2;
+                    break;
+                case 3:
+                    document.getElementById("no4").src = "ngao_04.jpg";
+                    a=3;
+                    break;
+                case 4:
+                    document.getElementById("no4").src = "phap_04.jpg";
+                    a=4;
+                    break;
+                case 5:
+                    a=5;
+                    document.getElementById("no4").src = "van_04.jpg";
+                    break;
+            }
+            if(number1==number2==number3==number4)  { div.style.boder = "red"} 
+        }
+       
+
+
+
+
+
+    
+
+    
+  
+
+
+
+</script>
+
+</html>

@@ -1,0 +1,45 @@
+<html>
+
+<head></head>
+
+<body>
+    <h2>JavaScript DoWhile</h2>
+
+</body>
+
+<script>
+    let square;
+    square = "<table border ='1' width = '600' cellspacing='3' cellpadding ='3'  >"
+    for (i = 1; i <= 10; i++) {
+        square = square + "<tr>";
+        for (u = 1; u <= 10; u++) {
+             square = square + "<td>" + i*u + "</td>";  
+            // square = square + "<td>" + u + "x" + i + "=" + i * u + "</td>";
+        }
+        square = square + "</tr>";
+
+    }
+    square = square + "</table>";
+    document.write(square);
+
+//   document.write(square);
+
+//   let square, a = b = 1;
+//   square = "<table border = '1' width = '300' cellspacing = ' 3' cellpadding = '3' >"
+//   while (a<=10){
+//       square = square + "<tr>";
+//       while(b<=10){
+//           square = square + "<td>" + a * b + "</td>";
+//           b++;
+//       }
+//       square = square + "</tr>";
+//       b=1;
+//       a++;
+
+//   }
+//   square = square + "</table>";
+//   document.write(square);
+
+</script>
+
+</html>

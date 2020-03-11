@@ -1,0 +1,45 @@
+<html>
+
+<head>
+
+
+</head>
+
+<body>
+
+    <p>
+        Bài 7: Viết chương trình để tính cước điện thoại bàn cho một hộ gia đình với các thông số như sau:
+
+        Phí thuê bao bắt buộc là 25 nghìn.
+        600 đồng cho mỗi phút gọi của 50 phút đầu tiên.
+        400 đồng cho mỗi phút gọi của 150 phút tiếp theo.
+        200 đồng cho bất kỳ mỗi phút nào sau 200 phút đầu tiên.
+    </p>
+
+
+
+    <input type="text" id="minute">
+    <button onclick="Check1()">Check</button>
+    <p id="ketqua"></p>
+
+
+
+    <script>
+        function Check1() {
+            let minute = parseFloat(document.getElementById("minute").value);
+
+            if (minute <= 50)
+                document.getElementById("ketqua").innerHTML = 25000 + minute * 600 + "VNdong";
+            else if (minute <= 200)
+                document.getElementById("ketqua").innerHTML = 25000 + 50 * 600 + (minute - 50) * 400 + "VNdong";
+            else 
+                document.getElementById("ketqua").innerHTML = 25000 + 50 * 600 + 150 * 400 + (minute - 200) * 200 + "VNdong";
+        }
+
+    </script>
+
+</body>
+
+
+
+</html>

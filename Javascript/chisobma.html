@@ -1,0 +1,70 @@
+<html>
+
+<title>Chỉ số BMI</title>
+
+<head>
+    <h1>Chỉ số khối cơ thể (Body mass index-BMI)</h1>
+    <style>
+        td{
+            width: 150px;
+            height: 50px;
+            border: solid 1px teal;
+           text-align: center;
+        }
+input{
+    list-style: none;
+    width: 100%;
+    height: 100%;
+    font-style: normal;
+    text-align: center;
+}
+    </style>
+</head>
+
+<body>
+    <div>
+        <table>
+            <tr>
+                <td style="border: teal solid 1px ; ">weight</td>
+                <td style="border: teal solid 1px ; ">height</td>
+
+                <td><input style="background-color:  rgb(143, 236, 236) ;" type="button" value="bmi" onclick="bmi()"> </td>
+                <td><input style="background-color: rgb(143, 236, 236);"type="button"  value="Interpretation" onclick="bmi()"></td>
+
+            </tr>
+            <tr>
+                <td><input id="weight" type="text"></td>
+                <td><input id="height" type="text"></td>
+                <td >
+                    <p id="bmi"></p>
+                </td>
+                <td >
+                    <p id="show"></p>
+                </td>
+            </tr>
+    </div>
+
+    </table>
+    <script>
+
+        function bmi() {
+            let weight = parseFloat(document.getElementById("weight").value);
+            let height = parseFloat(document.getElementById("height").value);
+            let bmi = weight / (height * height);
+            document.getElementById("bmi").innerHTML = bmi;
+        // }  
+        //  function show(){ 
+            if (bmi < 18)
+                document.getElementById("show").innerHTML = "Underweight";
+            else if (bmi < 25.0)
+                document.getElementById("show").innerHTML = "Normal";
+            else if (bmi < 30.0)
+                document.getElementById("show").innerHTML = "Overweight";
+            else
+                document.getElementById("show").innerHTML = "Obese";
+        }
+    </script>
+</body>
+
+
+</html>

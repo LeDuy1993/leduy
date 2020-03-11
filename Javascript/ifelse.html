@@ -1,0 +1,27 @@
+<html>
+    <head>
+        <title>IF-ELSE</title>
+    </head>
+    <body>
+        <P>what your name?</P>
+        <input id="nhap" type="text">
+        <!-- <p id="ouput"></p> -->
+        <div id="ouput"></div>
+        <input type="button" value="Enter" onclick="Enter()">
+       
+    </body>
+    <script>
+        function Enter(){
+            let nhap = document.getElementById("nhap").value;
+
+            if (nhap =="lequangduy") 
+            document.getElementById("ouput").innerHTML = "Right";         
+            
+            else 
+                document.getElementById("ouput").innerHTML = "False";
+                
+            
+        }
+
+    </script>
+</html>

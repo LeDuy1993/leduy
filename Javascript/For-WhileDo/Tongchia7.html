@@ -1,0 +1,22 @@
+<html>
+
+<head></head>
+
+<body>
+    <h3>Bài 6: Tính tổng của 30 số chia hết cho 7 đầu tiên trong các số tự nhiên.</h3>
+    <button onclick="onclick1()">Kết quả</button>
+    <p id="result"></p>
+</body>
+<script>
+    function onclick1() {
+        let number = 7;
+        sum = 0;
+        for (let a = 1; a < 30; a++) {
+            number += 7;
+            sum = sum + number;
+        }
+        document.getElementById("result").innerHTML = sum ;
+    }
+</script>
+
+</html>

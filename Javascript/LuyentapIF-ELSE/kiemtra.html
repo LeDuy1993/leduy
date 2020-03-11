@@ -1,0 +1,26 @@
+<html>
+
+<head>
+
+</head>
+
+<body>
+    <input type="text" id="a" >
+    <input type="text" id="b" >
+    <button onclick="Check1()">Check</button>
+    <p id="ketqua"></p>
+
+
+</body>
+<script>
+    function Check1() {
+        let a = parseInt(document.getElementById("a").value);
+        let b = parseInt(document.getElementById("b").value);
+        if (a % b == 0)
+            document.getElementById("ketqua").innerHTML = "Chiahet";
+        else document.getElementById("ketqua").innerHTML = "khongchiahet";
+    }
+
+</script>
+
+</html>

@@ -1,0 +1,42 @@
+<html>
+
+<head>
+    <h1>Number of integers to print.</h1>
+</head>
+
+<body>
+    <p><button onclick="press()"> Number of integers to print.</button> <input type="number" id="oshite"></p>
+    <p id="print"></p>
+</body>
+<script>
+
+    function press() {
+        let number = parseFloat(document.getElementById("oshite").value);
+      let  count = 0;
+      let  a = 1;
+      chuoi ="";
+      
+        while (count < number) {
+           let quantity=0;
+           a=a+1; 
+            for (let b = 2; b <= a / 2; b++) {
+                if (a % b == 0) {
+                    quantity=quantity+1;
+                    break;
+                }
+                 
+            }
+            if (quantity == 0) {
+            chuoi = chuoi + a +",";
+            count= count+1;
+
+            }
+            
+        }
+        document.getElementById("print").innerHTML = chuoi ;
+    }
+
+
+</script>
+
+</html>

@@ -1,0 +1,56 @@
+<html>
+
+<head>
+    <style>
+        span {
+            display: inline-block;
+            position: relative;
+            width: 60px;
+            height: 30px;
+            border: rgb(1, 17, 17) solid;
+            /* border-radius: 20px; */
+        }
+
+        span input {
+            display: block;
+            position: absolute;
+            /* opacity: 0; */
+            /* opacity: chế độ làm mờ ô input=0 thì không nhìn thấy nhưng input vẫn hoạt động */
+        }
+
+        span label {
+            background-color: #ebd835;
+            /* border-radius: 20px; */
+            display: inline-block;
+            width: 30px;
+            text-align: center;
+            font: bold 10px/28px Arial, Sans-Serif;
+        }
+
+        span label:before {
+            content: attr(data-off);
+            /* label:before: tức là phải thực hiện lệnh hiện data off trước khi click*/
+            /* Nội dung của thuộc tính data sẽ được gán vào hiện chữ NO */
+        }
+
+        span input:checked+label {
+            margin-left: 29px;
+            /* click vao thi nó chạy sang phải +29px */
+        }
+
+        span input:checked+label:before {
+            content: attr(data-on);
+            /* gán giá trị YES khi  */
+
+        }
+    </style>
+</head>
+
+<body>
+
+    <span class="check">
+        <input type="checkbox"><label data-on="YES" data-off="NO"></label>
+    </span>
+</body>
+
+</html>

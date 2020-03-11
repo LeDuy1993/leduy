@@ -1,0 +1,46 @@
+<html>
+
+<head>
+    <title>Login thực hành If else if</title>
+</head>
+
+<body>
+    <div>
+            <p> usename
+                <input id="usename" type="text" required> </p>
+            <p>Password
+                <input id="password" type="password" required></p>
+
+            <button id="login" type="submit" onclick="loginn()">Login</button>
+
+            <p id="output"></p>
+
+    </div>
+
+    <script>
+        function loginn() {
+            let usename = document.getElementById("usename").value;
+            let password = document.getElementById("password").value;
+    
+            if (usename == "admin")
+                if (password == "themaster")
+                    document.getElementById("output").innerHTML = "Wellcome";
+                else
+                    if (password == "null")
+                        document.getElementById("output").innerHTML = "Canceled";
+
+                    else
+                        document.getElementById("output").innerHTML = "wrong password";
+            else
+                if (usename == "null") 
+                    document.getElementById("output").innerHTML = "Canceled";
+                 else
+                    document.getElementById("output").innerHTML = "I dont know you";
+
+                }
+
+
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,130 @@
+<html>
+
+<head>
+    <style>
+    
+        .check {
+            display: inline-block;
+            position: relative;
+            text-align: left;
+            width: 60px;
+            height: 30px;
+            background-color: #484850;
+            overflow: hidden;
+            box-shadow: inset 0 10px 25px rgba(0, 0, 0, .5), 0px 1px 2px #fff;
+            -webkit-border-radius: 20px;
+            -moz-border-radius: 20px;
+            border-radius: 20px;
+        }
+
+        .check label {
+            background-color: #ebd835;
+
+            border-radius: 20px;
+            display: inline-block;
+            width: 30px;
+            text-align: center;
+            font: bold 10px/28px Arial, Sans-Serif;
+            color: #999;
+            text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.7);
+            transition: margin-left 0.2s ease-in-out;
+            margin: 1px;
+        }
+
+        .check input {
+            display: block;
+            position: absolute;
+            top: 0;
+            right: 0;
+            bottom: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            margin: 0 0;
+            cursor: pointer;
+            opacity: 0;
+            filter: alpha(opacity=0);
+            z-index: 2;
+        }
+
+        .check label:before {
+            content: attr(data-off);
+        }
+
+        .check input:checked+label {
+            margin-left: 29px;
+
+        }
+
+        .check input:checked+label:before {
+            content: attr(data-on);
+        }
+    </style>
+</head>
+
+<body>
+    <span class="lable"> Good</span>
+    <span class="check">
+        <input id="good" class="ckb" type="checkbox" onclick="checkGood()"><label data-on="YES" data-off="NO"></label>
+    </span>
+    <span class="lable">Fast </span>
+
+    <span class="check">
+        <input id="fast" class="ckb" type="checkbox" onclick="checkFast()"> <label data-on="YES" data-off="NO"></label>
+    </span>
+    <span class="lable">Cheap </span>
+    <span class="check">
+        <input id="cheap" class="ckb" type="checkbox" onclick="checkCheap()"><label data-on="YES" data-off="NO"></label>
+    </span>
+</body>
+<script>
+
+    function checkGood() {
+        let good = document.getElementById('good').checked;
+        let fast = document.getElementById('fast').checked;
+        let cheap = document.getElementById('cheap').checked;
+
+
+        if (fast && cheap) {
+            if (Math.random() > 0.5) {
+                document.getElementById('cheap').checked = false;
+            } else {
+                document.getElementById('fast').checked = false;
+            }
+        }
+    }
+    function checkFast() {
+        let good = document.getElementById('good').checked;
+        let fast = document.getElementById('fast').checked;
+        let cheap = document.getElementById('cheap').checked;
+        if (good && cheap) {
+            if (Math.random() > 0.5) {
+                document.getElementById('good').checked = false;
+            } else {
+                document.getElementById('cheap').checked = false;
+            }
+        }
+    }
+
+    function checkCheap() {
+        let good = document.getElementById('good').checked;
+        let fast = document.getElementById('fast').checked;
+        let cheap = document.getElementById('cheap').checked;
+
+
+        if (good && fast) {
+            if (Math.random() > 0.5) {
+                document.getElementById('good').checked = false;
+            } else {
+                document.getElementById('fast').checked = false;
+            }
+        }
+    }
+
+
+
+
+
+</script>
+
+</html>

@@ -1,0 +1,26 @@
+<html>
+
+<head>
+    <h2>Bảng Cửu Chương</h2>
+</head>
+
+<body>
+
+
+<script>
+    let square;
+    square = "<table border ='1' width ='600'  cellpadding = '2' cellspacing = '2' >"
+    for (i = 1; i <= 10; i++) {
+        square = square + "<tr>";
+        for (u = 2; u<= 9; u++) {
+            square = square + "<td>" + u + "x" + i + "=" + u * i + "</td>";
+
+        }
+        square = square + "</tr>";
+    }
+    square = square + "</table>";
+    document.write(square);
+
+</script>
+</body>
+</html>

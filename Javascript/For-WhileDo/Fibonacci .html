@@ -1,0 +1,30 @@
+<html>
+
+<head></head>
+
+<body>
+    <h1>Bài 3: Hiển thị ra 20 số trong dãy fibonacci đầu tiên. <br>
+            Tổng 20 số fibonacci đầu tiên
+
+    </h1>
+    <script>
+        let number1 = 0;
+            number2 = 1;
+            fibonacci ="";
+            sum = 1;
+            document.write(number1 +" ");
+        for (let c=0; c<20; c++) {
+            number2=number1+number2;
+            number1=number2-number1;
+            sum = sum + number2;
+            document.write(number2 +"   ");
+            // if(number2%5==0){
+            //     document.write(number2 +" ");
+            // }
+        }
+        document.write("=" +sum);
+        
+    </script>
+</body>
+
+</html>
