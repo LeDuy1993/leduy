@@ -12,15 +12,23 @@
         8208 là số Armstrong vì: 8^4 + 2^4 + 8^4 = 8208</h4>
 </body>
 <script>
-    let n = +prompt("Số nguyên có n chữ số");
+
     let number = +prompt("Enter a number: ");
     number1 = number;
+    number2 = number;
     sum = 0;
-    while (number1>0) {
+    i = 1;
+    // kiểm tra number có bao nhiêu chữ số
+    while (number2 / 10 >= 1) {
+        i++;
+        number2 = (number2 - number2 % 10) / 10;
+    }
+    
+    while (number1 > 0) {
         layDu = number1 % 10;
         sumofdu = 1;
-        for (let a = 1; a <= n; a++) {
-            sumofdu = sumofdu*layDu;
+        for (let a = 1; a <= i; a++) {
+            sumofdu = sumofdu * layDu;
         }
         sum = sum + sumofdu;
         number1 = (number1 - layDu) / 10;
