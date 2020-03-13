@@ -1,0 +1,113 @@
+<html>
+
+<body>
+    <h4>Bài 3:
+        Viết chương trình tạo ra mảng 2 chiều kích cỡ (5 x 5) gồm các số nguyên được sinh ra từ 20 đến 90.
+        sau đó: <br>
+        - Hiển thị giá trị lớn nhất trong mảng 2 chiều <br>
+        - Hiển thị giá trị nhỏ nhất trong mảng 2 chiều <br>
+        - Hiển thị số lượng các số chẵn có trong mảng 2 chiều <br>
+        - Hiển thị số lượng các số là bội của 5 có trong mảng 2 chiều <br>
+        - Hiển thị số lượng các số nguyên tố có trong mảng 2 chiều <br>
+        - Hiển thị dòng có tổng các giá trị của dòng đó lớn nhất của mảng 2 chiều <br>
+        - Hiển thị tổng các giá trị trên đường chéo chính của mảng 2 chiều <br>
+        - Hiển thị tổng các giá trị trên đường chéo phụ của mảng 2 chiều <br>
+        - Hiển thị tổng các giá trị ở đường biên của mảng 2 chiều</h4>
+</body>
+
+<script>
+    let array = [];
+    max = "20";
+    min = "90";
+    even = "";
+    multiple5 = "";
+    number1 = 0; nguyento = ""; soluongNT = 0;
+    maxSum = 0;
+    for (let i = 0; i < 5; i++) {
+        array[i] = [];
+        for (let j = 0; j < 5; j++) {
+            array[i][j] = Math.floor(Math.random() * 70 + 20);
+            if (array[i][j] > max) {
+                max = array[i][j];
+            }
+            if (array[i][j] < min) {
+                min = array[i][j];
+            }
+            if (array[i][j] % 2 === 0) { //kiểm tra số chẵn
+                even += array[i][j] + " ";
+            }
+            else { //kiểm tra số nguyên tố
+                for (a = 2; a < (array[i][j]) / 2; a++) {
+                    if (array[i][j] % a === 0) {
+                        number1 += 1;
+                    }
+                }
+                if (number1 == 0) {
+                    nguyento += array[i][j] + " ";
+                    soluongNT += 1;
+                }
+
+            }
+            if (array[i][j] % 5 === 0) {
+                multiple5 += array[i][j] + " ";
+            }
+
+        }
+    }
+    for (i = 0; i < 5; i++) { // tìm tổng dòng max
+        maxSumi = 0;
+        for (var j = 0; j < 5; j++) {
+            maxSumi += array[i][j];
+            if (maxSumi > maxSum) {
+                maxSum = maxSumi;
+                indexOfMaxRow = i;
+            }
+        }
+    }
+    sumCross = 0;
+    for (i = 0; i < 5; i++) { // tìm tổng dòng chèo chính
+        for (var j = 0; j < 5; j++) {
+            if (i === j) {
+                sumCross += array[i][j];
+            }
+        }
+    }
+    sumCross2 = 0;
+    for (i = 0; i < 5; i++) { // tìm tổng dòng chèo phụ  
+    sumCross2 += array[i][4-i];
+    }
+    sumTop=0;
+    for (j = 0; j < 5; j++){
+        sumTop+= array[0][j];
+    }
+    sumBotton =0;
+    for (j = 0; j < 5; j++){
+        sumBotton+= array[4][j];
+    }
+    sumRight=0;
+    for (i = 0; i < 5; i++){
+        sumRight+= array[i][4];
+    }
+    sumLeft=0;
+    for (i = 0; i < 5; i++){
+        sumLeft+= array[i][0];
+    }
+
+    for (let i = 0; i < array.length; i++) {
+        document.write(array[i]);
+        document.write("<br>")
+    }
+    document.write("Max là:" + max + "<br>");
+    document.write("Min là:" + min + "<br>");
+    document.write("Các số chẵn là:" + even + "<br>");
+    document.write("Bội số của 5 là:" + multiple5 + "<br>");
+    document.write("Số nguyên tố là:" + nguyento + "<br>");
+    document.write("Số lượng số nguyên tố là:" + soluongNT + "<br>");
+    document.write("Dòng thứ " + indexOfMaxRow + ". MaxRow =" + maxSum + "<br>");
+    document.write("Tổng đường chéo chính: " + sumCross + "<br>");
+    document.write("Tổng đường chéo phụ: " + sumCross2 + "<br>");
+    document.write("Top: " + sumTop + "; "+ "Botton: " + sumBotton + " " +"Right: " + sumRight + "; "+ "Left: " + sumLeft );
+
+</script>
+
+</html>

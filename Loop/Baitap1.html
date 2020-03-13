@@ -1,0 +1,36 @@
+<html>
+
+<head>
+
+</head>
+
+<body>
+    <h4>Bài 1:
+        Viết chương trình tạo ra một mảng số nguyên M gồm 10 phần tử được sinh ngẫu nhiên từ 20 đến 30. <br>
+        Sau đó yêu cầu người dùng nhập vào một giá trị n, hiển thị lên màn hình mảng M và thông báo "n<br>
+        có xuất hiện trong mảng M" nếu n xuất hiện trong mảng M, ngược lại thông báo "n không xuất hiện
+        trong mảng M".</h4>
+</body>
+<script>
+    let array = Array();
+
+    for (i = 0; i < 10; i++) {
+        array[i] = Math.floor(Math.random() * 10 + 20);
+    }
+    document.write(array);
+    function click1() {
+        number = document.getElementById("input").value;
+        bienao = false;
+        for (i = 0; i < 10; i++) {
+            if (number == array[i]) {
+                document.getElementById("ouput").innerHTML = number + " Có xuất hiện trong mảng";
+                bienao = true;
+            }
+        }
+        if (bienao === false) {
+                document.getElementById("ouput").innerHTML = number + " Không xuất hiện trong mảng";
+            }
+    }
+</script>
+
+</html>
