@@ -21,8 +21,8 @@
     min = "90";
     even = "";
     multiple5 = "";
-    number1 = 0; nguyento = ""; soluongNT = 0;
     maxSum = 0;
+    nguyento = ""; soluongNT = 0;  
     for (let i = 0; i < 5; i++) {
         array[i] = [];
         for (let j = 0; j < 5; j++) {
@@ -37,16 +37,16 @@
                 even += array[i][j] + " ";
             }
             else { //kiểm tra số nguyên tố
+                number1 = 0; 
                 for (a = 2; a < (array[i][j]) / 2; a++) {
                     if (array[i][j] % a === 0) {
                         number1 += 1;
                     }
                 }
-                if (number1 == 0) {
+                if (number1 === 0) {
                     nguyento += array[i][j] + " ";
                     soluongNT += 1;
                 }
-
             }
             if (array[i][j] % 5 === 0) {
                 multiple5 += array[i][j] + " ";
@@ -54,6 +54,22 @@
 
         }
     }
+    
+    // for (i = 0; i < 5; i++) { // tìm số nguyên tố
+    //     for (j = 0; j < 5; j++) {
+            
+    //         for (a = 2; a < (array[i][j]) / 2; a++) {
+    //             if (array[i][j] % a === 0) {
+    //                 number1+=1;
+    //             }
+    //         }
+    //         if (number1 === 0) {
+    //             nguyento += array[i][j] + " ";
+    //             soluongNT += 1;
+    //         }
+    //     }
+    // }
+
     for (i = 0; i < 5; i++) { // tìm tổng dòng max
         maxSumi = 0;
         for (var j = 0; j < 5; j++) {
@@ -74,23 +90,23 @@
     }
     sumCross2 = 0;
     for (i = 0; i < 5; i++) { // tìm tổng dòng chèo phụ  
-    sumCross2 += array[i][4-i];
+        sumCross2 += array[i][4 - i];
     }
-    sumTop=0;
-    for (j = 0; j < 5; j++){
-        sumTop+= array[0][j];
+    sumTop = 0;
+    for (j = 0; j < 5; j++) {
+        sumTop += array[0][j];
     }
-    sumBotton =0;
-    for (j = 0; j < 5; j++){
-        sumBotton+= array[4][j];
+    sumBotton = 0;
+    for (j = 0; j < 5; j++) {
+        sumBotton += array[4][j];
     }
-    sumRight=0;
-    for (i = 0; i < 5; i++){
-        sumRight+= array[i][4];
+    sumRight = 0;
+    for (i = 0; i < 5; i++) {
+        sumRight += array[i][4];
     }
-    sumLeft=0;
-    for (i = 0; i < 5; i++){
-        sumLeft+= array[i][0];
+    sumLeft = 0;
+    for (i = 0; i < 5; i++) {
+        sumLeft += array[i][0];
     }
 
     for (let i = 0; i < array.length; i++) {
@@ -106,7 +122,7 @@
     document.write("Dòng thứ " + indexOfMaxRow + ". MaxRow =" + maxSum + "<br>");
     document.write("Tổng đường chéo chính: " + sumCross + "<br>");
     document.write("Tổng đường chéo phụ: " + sumCross2 + "<br>");
-    document.write("Top: " + sumTop + "; "+ "Botton: " + sumBotton + " " +"Right: " + sumRight + "; "+ "Left: " + sumLeft );
+    document.write("Top: " + sumTop + "; " + "Botton: " + sumBotton + " " + "Right: " + sumRight + "; " + "Left: " + sumLeft);
 
 </script>
 
