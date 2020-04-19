@@ -1,0 +1,94 @@
+<html>
+
+<head>
+
+</head>
+
+<body>
+    <input type="text" id="khoiluongthucan"> <button onclick="click1()">click1</button> 
+</body>
+<script>
+    class person {
+        constructor(name, gender) {
+            this.name = name;
+            this.gender = gender;
+        }
+        shokai() {
+            return "My name is " + this.name + "." + "I am" + this.gender;
+        }
+        getName() {
+            return this.name
+        }
+        getGender() {
+            return this.gender
+        }
+        setWeight(weight) {
+            this.weight = weight;
+        }
+        getWeight() {
+            return this.weight
+        }
+        eat(food, Eat) {
+            food.KhoiLuongBiAn(Eat);
+            this.weight = this.weight +Eat;
+
+        }
+        drinking(drink, soLuong) {
+            drink.soLuongBiUong(soLuong);
+            this.weight = this.weight + soLuong;
+        }
+    }
+    class drink {
+        constructor(namedrink, soluong) {
+            this.namedrink = namedrink;
+            this.soluong = soluong;
+        }
+        getNameDrink() {
+            return this.namedrink;
+        }
+        getSoluong() {
+            return this.soluong;
+        }
+        soLuongBiUong(soLuongBiUong) {
+            this.soluong = this.soluong - soLuongBiUong;
+        }
+
+    }
+    class food {
+        constructor(namefood, khoiluong) {
+            this.namefood = namefood;
+            this.khoiluong = khoiluong;
+        }
+        getNamefood() {
+            return this.namefood;
+        }
+        getKhoiLuong() {
+            return this.khoiluong;
+        }
+        KhoiLuongBiAn(khoiluongEat) {
+            this.khoiluong = this.khoiluong - khoiluongEat;
+        }
+    }
+    function click1() {
+        khoiluong = document.getElementById("khoiluongthucan").value;
+        let vit = new food("vitxaomang", khoiluong)
+        document.write("Khối lượng gọi món:" +vit.getKhoiLuong() + "<br>");
+  
+        let adam = new person("Adam", "male")
+        adam.setWeight(50); let weight = adam.getWeight();
+        let eva = new person("Eva", "Female")
+        let bia = new drink("Huda", 10)
+        adam.drinking(bia, 2);
+        adam.eat(vit, 2);
+
+        document.write(adam.shokai() + "<br>");
+        document.write("Số lượng bia sau khi uống" + bia.getSoluong() + "<br>");
+        document.write("Khối lượng sau khi ăn:" +vit.getKhoiLuong() + "<br>");
+        document.write("Cân nặng sau khi ăn:"+ adam.getWeight() + "<br>");
+    }
+    
+
+
+</script>
+
+</html>

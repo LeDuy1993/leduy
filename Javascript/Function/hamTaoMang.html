@@ -1,0 +1,47 @@
+<html>
+
+<head>
+    <title>Arguments Array</title>
+</head>
+
+<body>
+
+    <script>
+        function enterNumber() {
+            return +prompt("Enter your number: ");
+        }
+        function taoMang(row, col) {
+            let array = [];
+            for (let i = 0; i < row; i++) {
+               array[i] = [];
+                for (let j = 0; j < col; j++) {
+                    array[i][j]= Math.floor(Math.random() * 10 + 1);
+                }
+            }
+            return array;
+        }
+        function hienThiMang(array, row, col) {
+            let show = "<table border=1>";
+            for (let i = 0; i < row; i++) {
+                show += "<tr>";
+                for (let j = 0; j < col; j++) {
+                    show += "<td>" + array[i][j] + "</td>";
+                }
+                show += "</tr>";
+            }
+            show += "</table>";
+            return show;
+        }
+        function main() {
+            let row = enterNumber();
+            let col = enterNumber();
+            let array = taoMang(row, col);
+            let show = hienThiMang(array, row, col);
+            document.write(show);
+        }
+        main();
+
+    </script>
+</body>
+
+</html>

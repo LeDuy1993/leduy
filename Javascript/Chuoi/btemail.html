@@ -1,0 +1,24 @@
+<html>
+
+<head>
+    <meta charset=utf-8 />
+    <title>Check Email</title>
+</head>
+
+<body>
+    <script>
+        function checkEmail(str) {
+            let email =/^[A-Za-z0-9]+[A-Za-z0-9]*@[A-Za-z0-9]+(\.[A-Za-z0-9]+)$/;
+            if (email.test(str)) {
+                console.log("Email hợp lệ");
+            } else {
+                console.log("Email không hợp lệ");
+            }
+        }
+        checkEmail("a@gmail.com");
+        checkEmail("@#abc@gmail.com");
+
+    </script>
+</body>
+
+</html>

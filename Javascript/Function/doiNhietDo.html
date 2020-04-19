@@ -1,0 +1,35 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+
+<body>
+
+    <form>
+        <p>
+            <label>Fahrenheit</label>
+            <input id="inputF" type="number" placeholder="Fahrenheit" oninput="main()" onchange="main()">
+        </p>
+        <p>Celsius: <span id="outputC"></span></p>
+    </form>
+    <script>
+       nhapNumber = function () {
+            let numberF = document.getElementById("inputF").value;
+            return numberF;
+        }
+        function chuyenFsangC(numberF) {
+            let numberC = (numberF - 32) / 1.8;
+            return numberC;
+        }
+        main= function () {
+            let numberF = nhapNumber();
+            let numberC = chuyenFsangC(numberF);
+            document.getElementById("outputC").innerHTML = numberC;
+        }
+       
+    </script>
+</body>
+
+</html>

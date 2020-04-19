@@ -1,0 +1,83 @@
+<html>
+
+<head>
+
+</head>
+
+<body>
+
+    <script>
+        class person {
+            constructor(n, a, g) {
+                this.name = n;
+                this.age = a;
+                this.gender = g;
+            }
+            greeting() {
+                return "My name is" + this.name + "I am" + this.age + "years old" + "and" + this.gender;
+
+            }
+            isAdult() {
+                return this.age >= 18 ? "yes" : "Not yes";
+            }
+            static breathe() {
+                return " still breathe still alive";
+            }
+
+
+        }
+        class student extends person {
+            constructor(n, a, g, e) {
+                super(n, a, g);
+                this.email = e;
+            }
+            greeting() {
+                return super.greeting + "my email is" + this.email;
+            }
+            isAdult() {
+                return this.age >= 25 ? "should maried" : "Fa";
+            }
+
+            showEmail() {
+                return this.email;
+            }
+
+        }
+        class Master extends student {
+            constructor(n, a, g, e, p) {
+                super(n, a, g, e);
+                this.phone = p;
+            }
+            greeting() {
+                return super.greeting + "my phone number is" + this.phone;
+            }
+
+
+        }
+
+
+
+        let vu = new student("Vũ nhôm", 18, "male", "vu.nhom@tutuoi.com");
+        document.write(vu.greeting() + "<br>");
+        // document.write(vu.showEmail() + "<br>");
+        document.write(vu.isAdult() + "<br>");
+
+        //
+        let khoa = new person("Khoa Nguyen", 37, "Male");
+        document.write(khoa.greeting() + "<br>");
+        //document.write(khoa.breathe()+"<br>"); //
+        document.write(person.breathe() + "<br>");
+        document.write(khoa.isAdult() + "<br>");
+
+
+        document.write("<br>");
+        // khoa.breathe();
+        person.breathe();
+        let thuong = new Master("siếu nhân phi thương" , 18, "Male", "thuong@sieunhan.com", "032916611664");
+        document.write(thuong.greeting());
+
+    </script>
+</body>
+
+
+</html>

@@ -1,0 +1,92 @@
+<html>
+
+<head>
+
+</head>
+
+<body>
+    <button onclick="ConnectToLamp()">Connect</button>
+    <!-- <button onclick="tat()">Tắt</button> -->
+    <p id="output"></p>
+
+</body>
+<script>
+    class ElectricLamp {
+        constructor(battery) {
+            this.battery = battery;
+            this.status = false;
+        }
+        turnOn() {
+            this.status = true;
+        }
+        turnOff() {
+            this.status = false;
+        }
+        decrementBatterry() {
+            if (this.battery <= 0) {
+                this.status = false
+
+            }
+            else {
+                this.battery -= 1;
+                return this.battery;
+            }
+        }
+        getStatus() {
+            return this.status;
+        }
+
+    }
+    class SwitchButton {
+        constructor(battey) {
+            this.status = false;
+
+        }
+        connect(denled) {
+            this.denled = denled;
+        }
+        switchOn() {
+            this.status = true;
+            this.denled.turnOn();
+        }
+        switchOff() {
+            this.status = false;
+            this.denled.turnOff();
+        }
+        useBatterry() {
+            this.denled.decrementBatterry();
+        }
+        getStatus() {
+            return this.status;
+        }
+
+    }
+    let dienquang = new ElectricLamp(10);
+    let switchButton2 = new SwitchButton();
+    switchButton2.connect(dienquang);
+ 
+    function ConnectToLamp() {
+        if (switchButton2.getStatus() === false) {
+            switchButton2.switchOn();
+            function time(){
+            switchButton2.useBatterry();
+            document.getElementById("output").innerHTML = "Lamp is lightning " + "<br>" + dienquang.battery;
+            setInterval(time, 2000)
+        }
+        time();
+    }
+    
+        else { 
+            clearInterval();   
+            switchButton2.switchOff();
+            document.getElementById("output").innerHTML = "Lamp is off";
+            
+        }
+
+    }
+  
+
+
+</script>
+
+</html>

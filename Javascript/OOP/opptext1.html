@@ -1,0 +1,24 @@
+<html>
+<head>
+<script>
+window.onload = function(){
+    var canvas = document.getElementById("myCanvas");
+    var context = canvas.getContext("2d");
+ 
+    var x = 0; //Tọa độ x - tính từ trái qua phải
+    var y = 50; //Tọa độ y - tính từ trên xuống dưới
+    context.font = "50px Comic Sans MS"; //font chữ
+    context.fillStyle = "green"; //Màu chữ
+    context.shadowColor = "#333"; //Màu bóng
+    context.shadowBlur = 10; //Độ nhòe bóng
+    context.shadowOffsetX = 5; //Khoảng cách bóng tới chữ, tính theo chiều ngang
+    context.shadowOffsetY = 5; //Khoảng cách bóng tới chữ, tính theo chiều dọc
+    context.fillText("Bảy Ban", x, y);
+};
+</script>
+</head>
+
+<body>
+<canvas id="myCanvas" width="500" height="100"></canvas>
+</body>
+</html>

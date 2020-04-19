@@ -1,0 +1,47 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        div {
+            border: 1px solid teal;
+            border-radius: 10px;
+            height: 150px;
+            width: 40%;
+            padding: 10px;
+
+        }
+    </style>
+</head>
+
+<body>
+    <div>
+        <form>
+            <p>
+                <label>Luyện tập 1.2</label>
+                <input id="number" type="number" placeholder="Number" oninput="main()">
+            </p>
+            <p>Result: <span id="result"></span>
+            </p>
+        </form>
+    </div>
+    <script>
+        function nhapNumber() {
+            return parseInt(document.getElementById("number").value);
+        }
+        function tangNumberLen1(number1) {
+            let sumNumber = number1 + 1;
+            return sumNumber;
+        }
+        function main() {
+            let number1 = nhapNumber();
+            let sumNumber = tangNumberLen1(number1);
+            document.getElementById("result").innerHTML = sumNumber;
+        }
+
+
+    </script>
+</body>
+
+</html>

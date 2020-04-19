@@ -1,0 +1,36 @@
+<html>
+
+<head>
+    <meta charset=utf-8 />
+    <title>Đếm số từ</title>
+
+
+</head>
+
+<body>
+
+
+    <script>
+
+        let str = "Tôi yêu ngôn ngữ lập trình Javascript"
+        console.log(str);
+        patt = /[Tôi]/ig; ////
+        if(patt.test(str)){
+            console.log("xuất hiện")
+        }
+        else{
+            console.log("null")
+        }
+        str2 = str.match(patt);
+        console.log(str2);
+        console.log(str2.length)
+        let str3 = str.split(" ");
+        console.log(str3);
+        str4 = str.replace(/ngôn ngữ/g, "Typescript")
+        console.log(str4);
+        
+
+    </script>
+</body>
+
+</html>

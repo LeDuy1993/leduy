@@ -1,0 +1,30 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mảng không trùng nhau</title>
+</head>
+<body>
+    <script>
+        let mang = []; 
+        let i =0;
+        while (true) {
+            if (i==10) {
+                break;
+            }
+            let so = Math.round(Math.random()*10+40);
+            let ok = true;
+            for (let j = 0; j <= i ; j++) {
+                if (mang[j] ==so) {
+                    ok = false;
+                } 
+            }
+            if(ok){
+                mang[i]=so; i++;
+            }       
+           
+        }
+        document.write(mang);
+    </script>
+</body>
+</html>

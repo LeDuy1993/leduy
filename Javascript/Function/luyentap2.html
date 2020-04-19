@@ -1,0 +1,63 @@
+<html>
+
+<head>
+    <style>
+        td {
+            padding: 5px;
+            border: solid 1px teal;
+            width: 100px;
+
+        }
+    </style>
+</head>
+
+<body>
+    <div>
+        <table>
+            <tr>
+                <td>Meters</td>
+                <td>Feet</td>
+                <td>Feet</td>
+                <td>Meters</td>
+            </tr>
+            <tr>
+                <td><input id="inputNumberMetes" oninput="main()" type="number"></td>
+                <td>
+                    <p id="displayFeet"></p>
+                </td>
+                <td><input id="inputNumberFeet" oninput="main()" type="number"></td>
+                <td>
+                    <p id="displayMetes"></p>
+                </td>
+            </tr>
+        </table>
+    </div>
+</body>
+<script>
+    function numberMetes() {
+        return parseInt(document.getElementById("inputNumberMetes").value);
+
+    }
+    function numberFeet() {
+        return parseInt(document.getElementById("inputNumberFeet").value);
+    }
+    function metesToFeet(numberM){
+        feet = 3.279 * numberM; 
+        return feet;
+    }
+    function feetToMetes(numberF){
+        metes = 0.305 * numberF;
+        return metes;
+    }
+    function main(){
+        let numberM = numberMetes();
+        let numberF = numberFeet();
+        let feet = metesToFeet(numberM)
+        let metes = feetToMetes(numberF)
+        document.getElementById("displayFeet").innerHTML = feet;
+        document.getElementById("displayMetes").innerHTML = metes;
+    }
+
+</script>
+
+</html>

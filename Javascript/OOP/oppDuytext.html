@@ -1,0 +1,131 @@
+<html>
+
+<head></head>
+
+<body>
+
+</body>
+<script>
+    let duy = {};
+    duy.name = "Duy";
+    duy.age = "28";
+    duy.gender = "male";
+    duy.show = function () { return "My name is" + duy.name + "Age" + duy.age }
+    // alert(duy.show());
+
+    function person(name, age, gender) {
+        this.name = name;
+        this.age = age;
+        this.gender = gender;
+        this.show = function () {
+            return "My name is :" + this.name + ". Age: " + this.age + ". Gender:" + this.gender + "<br>" + "weight:" + this.weight;
+        }
+        this.changeName = function (newName) {
+            this.name = newName;
+        }
+        this.changAge = function (newAge) {
+            this.age = newAge;
+        }
+        this.changeGender = function (newGender) {
+            this.gender = newGender;
+        }
+        this.setWeight = function (weight) {
+            this.weight = weight;
+        }
+        this.getWeight = function () {
+            return this.weight;
+        }
+        this.eat = function (fooder, v) {
+            if (fooder.weightfood < v) {
+                this.weight = this.weight + fooder.weightfood;
+            }
+            else {
+                this.weight = this.weight + v;
+            }
+            fooder.decrement(v);
+        }
+    }
+    function fooder(nameFood, weightfood) {
+        this.name = nameFood;
+        this.weightfood = weightfood;
+        this.decrement = function (v) {
+            if (this.weightfood < v) {
+                this.weightfood = this.weightfood - this.weightfood;
+            }
+            else {
+            this.weightfood = this.weightfood - v;
+            }
+        }
+        this.getWeight = function () {
+            return this.weightfood;
+        }
+    }
+    let echxao = new fooder("boxaogia", 10)
+   
+    let minh = new person("name", "age", "gender");
+    minh.changeName("minh2");
+    minh.changAge("31")
+    minh.changeGender("male")
+    minh.setWeight(50)
+    let weight = minh.getWeight()
+    minh.eat(echxao, 2);
+    document.write(minh.getWeight());
+    document.write("<br>")
+    document.write(echxao.weightfood);
+    document.write("<br>")
+    //
+    let an = new person("name", "age", "gender");
+    an.changeName("An");
+    an.changAge("20")
+    an.changeGender("female")
+    an.setWeight(40)
+    let weight2 = an.getWeight(40)
+    an.eat(echxao, 10);
+    document.write(an.getWeight());
+    document.write("<br>")
+    document.write(echxao.weightfood);
+
+
+
+
+
+    // document.write(xao.decrement(v));
+
+    // let person3 = new person("name", "age", "gender");
+    // person3.changeName("Duy");
+    // person3.changAge("18")
+    // person3.changeGender("Female")
+    // document.write(person3.show());  //
+    // function Human() {
+    //     this.setFullName = function (fn) { //set : cập nhật thuộc tính
+    //         this.fullname = fn;
+    //     }
+    //     this.getFullName = function () { //get: lấy thuoovj tính
+    //         return this.fullname;
+    //     }
+    //     this.setGender = function (g) {
+    //         this.gender = g;
+    //     }
+    //     this.getGender = function () {
+    //         return this.gender;
+    //     }
+    //     this.humanshow = function () {
+    //         return "My name is :" + this.fullname + ". Gender:" + this.gender;
+    //     }
+
+    // }
+    // let human1 = new Human()
+    // human1.setFullName("Anh");
+    // human1.setGender("Male");
+    // let fn = human1.getFullName()
+    // let g = human1.getGender()
+    // document.write(fn);
+
+
+    // document.write(human1.humanshow());
+
+
+
+</script>
+
+</html>

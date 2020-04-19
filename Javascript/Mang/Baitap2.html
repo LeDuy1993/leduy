@@ -1,0 +1,22 @@
+<html>
+
+<body>
+    <h4>Bài 2:
+        Viết chương trình sinh ra một mảng M gồm 10 phần tử được sinh ngẫu nhiên từ 40 đến 50 và <br>
+        những phần tử trong mảng phải khác nhau (nghĩa là ví dụ giá trị 41 đã xuất hiện rồi thì<br>
+        không cho xuất hiện nữa).</h4>
+</body>
+<script>
+    let array = Array();
+    for (let i = 0; i < 10; i++) {
+        array[i] = Math.floor(Math.random() * 11 + 40);
+        number = array[i];
+        for (let j = 0; j < i; j++) {
+            if (number === array[j]) {
+                i = i - 1;
+            }
+        }
+    }
+document.write(array); 
+</script>
+</html>

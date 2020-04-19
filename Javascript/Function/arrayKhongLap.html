@@ -1,0 +1,35 @@
+<html>
+
+<head></head>
+
+<body>
+
+</body>
+<script>
+    function mangKhongLap(lenght, numberMin, numberMax) {
+        let array = Array();
+        for (let i = 0; i < lenght; i++) {
+            array[i] = Math.floor(Math.random() * (numberMax - numberMin) + numberMin);
+            let number = array[i];
+            for (let j = 0; j < i; j++) {
+                if (number === array[j]) {
+                    i = i - 1;
+                }
+            }
+        }
+        return array;
+    }
+    function enterNumber() {
+        return +prompt("Enter your number: ");
+    }
+    function main() {
+        let lenght = enterNumber();
+        let numberMin = enterNumber();
+        let numberMax = enterNumber();
+        let array = mangKhongLap(lenght, numberMin, numberMax);
+        document.write(array);
+    }
+    main();
+</script>
+
+</html>

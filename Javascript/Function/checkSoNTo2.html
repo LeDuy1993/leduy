@@ -1,0 +1,42 @@
+<html>
+
+<head></head>
+
+<body>
+    <label>Số Nguyên Tố</label>
+    <input id="inputNumber" type="number" placeholder="Number" oninput="main()">
+    </p>
+    <p>Result: <span id="outputNguyenTo"></span></p>
+</body>
+<script>
+    
+    function enterNumber() {
+        return document.getElementById("inputNumber").value;
+    }
+
+    function kiemTraSoNT(number) {
+        reuslt = "";
+        for (let i = 2; i <= number; i++) {
+            let number1 = 0;
+            for (let a = 2; a <= Math.sqrt(i); a++) {
+                if (i % a === 0) {
+                    number1 += 1;
+                    break;
+                }
+            }
+            if (number1 === 0) {
+                reuslt += i + ", ";
+            }
+        }
+
+        return reuslt;
+    }
+    function main() {
+        let number = enterNumber();
+        let reuslt = kiemTraSoNT(number);
+        document.getElementById("outputNguyenTo").innerHTML = reuslt;
+    }
+
+</script>
+
+</html>

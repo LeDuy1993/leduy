@@ -1,0 +1,20 @@
+<html>
+<body>
+
+<h2>JavaScript new Date()</h2>
+
+<p>Ngày Sinh:</p> <p id="demo"></p>
+<p>Thời gian hiện tại:</p> <p id="demo2"></p>
+ <p id="year"></p>
+<script>
+var date = new Date();
+birthday = new Date(1993,2,6,10)
+document.getElementById("demo").innerHTML = birthday;
+document.getElementById("demo2").innerHTML = date;
+year = date.getFullYear()-birthday.getFullYear()
+document.getElementById("year").innerHTML ="Tôi đã sống: " + year + " năm";
+
+</script>
+
+</body>
+</html>

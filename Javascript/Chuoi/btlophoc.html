@@ -1,0 +1,27 @@
+<html>
+
+<head>
+    <meta charset=utf-8 />
+    <title>Check ClassName</title>
+    
+</head>
+
+<body>
+    <input type="text" name="" id="input">
+    <button onclick="ClassName()">ClassName</button>
+    <script>
+        function ClassName() {
+            str = document.getElementById("input").value;
+            let useName =/(^[CAP]{1})+([0-9]{4})+([GHIKLM]{1})$/;
+            if (useName.test(str)) {
+                console.log( str +"Tên đăng nhập hợp lệ");
+            } else {
+                console.log(str + "Tên đăng nhập không hợp lệ");
+            }
+        }
+       
+
+    </script>
+</body>
+
+</html>

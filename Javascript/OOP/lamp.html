@@ -1,0 +1,75 @@
+<html>
+
+<head>
+
+</head>
+
+<body>
+    <button onclick="ConnectToLamp()">Connect</button>
+    <!-- <button onclick="tat()">Tắt</button> -->
+    <p id="output"></p>
+
+</body>
+<script>
+    class ElectricLamp {
+        constructor(battery) {
+            this.battery = battery;
+  
+
+        }
+
+        turnOn() {
+            this.battery -= 1;
+            return "Lamp is lightning. " + "<br>"
+                + "Batttery:  " + this.battery + "<br>";
+           
+        }
+        turnOff() {
+            return "Lamp is off" + "<br>";
+
+        }
+    }
+    class SwitchButton {
+        connect(denled) {
+            return this.denled = denled;
+        }
+        switchOn() {
+            return this.denled.turnOn();
+        }
+        switchOff() {
+            return this.denled.turnOff();
+        }
+    }
+    let lamp2 = new ElectricLamp(20);
+    let switchButton2 = new SwitchButton();
+    document.write("Battery lúc mới nhập vào:" + lamp2.battery + "<br>");
+    switchButton2.connect(lamp2);
+    let i = 2;
+
+    function ConnectToLamp() {
+        if (i % 2 === 0) { 
+            if (lamp2.battery > 1) {
+                document.getElementById("output").innerHTML = switchButton2.switchOn();
+            }
+            else {
+                document.getElementById("output").innerHTML = switchButton2.switchOff();
+            }
+        }
+        else {
+            document.getElementById("output").innerHTML = switchButton2.switchOff();
+        }
+        i += 1;
+    }
+
+
+
+
+
+    // function tat() {
+    //     document.getElementById("output").innerHTML = switchButton2.switchOff();
+    // }
+
+
+</script>
+
+</html>

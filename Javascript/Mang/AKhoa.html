@@ -1,0 +1,25 @@
+<html>
+
+<body>
+
+</body>
+<script>
+  let arr = [];
+        for (i = 0; i < 10; i++) {
+            arr[i] = Math.floor(Math.random() * 10 + 1);
+        }
+        document.write(arr.join());
+        setInterval(function () {
+            let v = +prompt("input your number:");
+            let arr2 = [];
+            for (let i = 0; i < arr.length; i++) {
+                if (arr[i] != v)
+                    arr2.push(arr[i]);
+            }
+            document.write(arr.join());
+            document.write("<br>");
+            document.write(arr2.join());
+        }, 300);
+</script>
+
+</html>

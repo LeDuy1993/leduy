@@ -1,0 +1,163 @@
+<html>
+
+<head>
+    <style>
+        body {
+            position: relative;
+
+        }
+
+        div {
+            border: 1px solid teal;
+            border-radius: 10px;
+            height: 600px;
+            width: 40%;
+            padding: 20px;
+
+        }
+
+        #div2 {
+            position: absolute;
+            left: 50%;
+            top: 0%;
+
+        }
+    </style>
+</head>
+
+<body>
+    <div>
+
+        <form>
+            <p>
+                <label>Array 1</label>
+                <input id="row" type="number" placeholder="RowNumber" oninput="main()">
+                <input id="collum" type="number" placeholder="CollumNumer" oninput="main()">
+            </p>
+            <p>Result: <span id="result"></span></p>
+            <p>Min: <span id="resultMin"></span></p>
+            <p>Max: <span id="resultMax"></span></p>
+            <p>TrungBinh: <span id="resultTB"></span></p>
+        </form>
+    </div>
+    <div id="div2">
+
+        <form>
+            <p>
+                <label>Array 2</label>
+                <input id="row2" type="number" placeholder="RowNumber" oninput="main2()">
+                <input id="collum2" type="number" placeholder="CollumNumer" oninput="main2()">
+            </p>
+            <p>Result2: <span id="result2"></span></p>
+            <p>Min2: <span id="resultMin2"></span></p>
+            <p>Max2: <span id="resultMax2"></span></p>
+            <p>TrungBinh2: <span id="resultTB2"></span></p>
+        </form>
+    </div>
+
+</body>
+<script>
+    function taoMang(row, col) {
+        let array = [];
+        for (let i = 0; i < row; i++) {
+            array[i] = [];
+            for (let j = 0; j < col; j++) {
+                array[i][j] = Math.floor(Math.random() * 40 - 10);
+            }
+        }
+        return array;
+    }
+    function hienThiMang(array, row, col) {
+        let show = "<table border=1>";
+        for (let i = 0; i < row; i++) {
+            show += "<tr>";
+            for (let j = 0; j < col; j++) {
+                show += "<td>" + array[i][j] + "</td>";
+            }
+            show += "</tr>";
+        }
+        show += "</table>";
+        return show;
+    }
+    function minInArray(array, row, col) {
+        let min = array[0][0];
+        for (let i = 0; i < row; i++) {
+            for (let j = 0; j < col; j++) {
+                if (min > array[i][j]) {
+                    min = array[i][j];
+                }
+
+            }
+        }
+        return min;
+    }
+    function maxInArray(array, row, col) {
+        let max = array[0][0];
+        for (let i = 0; i < row; i++) {
+            for (let j = 0; j < col; j++) {
+                if (max < array[i][j]) {
+                    max = array[i][j];
+                }
+
+            }
+        }
+        return max;
+    }
+    function tinhTrungBinh(array, row, col) {
+        let tong = 0;
+        for (let i = 0; i < row; i++) {
+            for (let j = 0; j < col; j++) {
+                tong += array[i][j];
+            }
+        }
+        let trungBinh = tong/(row*col);
+        return trungBinh;
+
+    }
+
+    function nhapRow() {
+        return document.getElementById("row").value;
+    }
+    function nhapCol() {
+        return document.getElementById("collum").value;
+    }
+    function nhapRow2() {
+        return document.getElementById("row2").value;
+
+    }
+    function nhapCol2() {
+        return document.getElementById("collum2").value;
+    }
+
+
+    function main() {
+        let row = nhapRow();
+        let col = nhapCol();
+        let array = taoMang(row, col);
+        let show = hienThiMang(array, row, col);
+        let min = minInArray(array, row, col);
+        let max = maxInArray(array, row, col);
+        let trungBinh = tinhTrungBinh(array, row, col);
+        document.getElementById("result").innerHTML = show;
+        document.getElementById("resultMin").innerHTML = min;
+        document.getElementById("resultMax").innerHTML = max;
+        document.getElementById("resultTB").innerHTML = trungBinh;
+
+        
+    }
+    function main2() {
+        let row = nhapRow2();
+        let col = nhapCol2();
+        let array = taoMang(row, col);
+        let show = hienThiMang(array, row, col);
+        let min = minInArray(array, row, col);
+        let max = maxInArray(array, row, col);
+        let trungBinh = tinhTrungBinh(array, row, col);
+        document.getElementById("result2").innerHTML = show;
+        document.getElementById("resultMin2").innerHTML = min;
+        document.getElementById("resultMax2").innerHTML = max;
+        document.getElementById("resultTB2").innerHTML = trungBinh;
+    }
+</script>
+
+</html>

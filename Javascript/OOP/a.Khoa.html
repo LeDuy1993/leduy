@@ -1,0 +1,98 @@
+
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        // //cách khai báo
+        // let person = {};
+        // //bổ sung thuộc tính
+        // person.fullname = "Khoa Nguyễn"
+        // //show thông tin
+        // person.getInfo = function(){ return "My name"}
+        // person.getInfo()
+        let an = {};
+        an.fullname = "Hồng Ân";
+        an.gender = "Female";
+        an.showInfo = function(){ return "My name is Ân"}
+        //Cách 1
+        function person(fn, age, gender){
+            this.fullname = fn;
+            this.age = age;
+            this.gender = gender;
+            this.weight = w;
+            this.greeting = function(){
+                return "My full name is " + this.fullname +
+                       ", I am " + this.age + " year old "; 
+            }
+            this.changeAge = function(newAge){
+                this.age = newAge;
+            }
+            this.changeName = function(newName){
+                this.fullname = newName;
+            }
+            
+            this.getWeight = function(){
+                return this.weight;
+            }
+            this.eat = function(food, v){
+                this.weight = this.weight + v;
+                food.decrement(v);
+            }
+        }
+        //Cách 2
+        function Human(){
+            this.setFullName = function(fn){ //set : cập nhật thuộc tính
+                this.fullname = fn;
+            }
+            this.getFullName = function(){ //get: lấy thuoovj tính
+                return this.fullname;
+            }
+            this.setGender = function(g){
+                this.gender = g;
+            }
+            this.getGender = function(){
+                return this.gender;
+            }
+        }
+        //
+        function Food(n,w){
+            this.name = n;
+            this.weight = w;
+            this.decrement = function(v){
+                this.weight = this.weight - v;
+            }
+            this.getWeight = function(){
+                return this.weight;
+            }
+        }
+        //phone
+        function Phone(n, b){
+            this.name = n;
+            this.inbox = [];
+            this.sent = [];
+            this.battery;
+            this.charge = function(){
+                this.battery = b;
+            }
+            this.chackStatus = function(){
+                return this.battery <0 ? "On" : "Off";
+            }
+            this.send = function(reciver, msg){
+                this.sent.push(msg)
+                reciver.inbox.push(msg);
+                this.battery -= 1;
+            }
+            this.showInbox = function(){
+                return this.inbox;
+            }
+            this.showSent = function(){
+                return this.sent;
+            }
+        }
+    </script>
+</body>
+</html>

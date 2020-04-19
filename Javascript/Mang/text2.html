@@ -1,0 +1,35 @@
+<html>
+
+<head></head>
+
+<body>
+  <input type="text" id="inputNumber"></input>
+  <button id="addNumber" value="AddNumber" onclick="addToNumber()">AddNumber</button>
+  <!-- <button id="blockNumber" value="block" onclick="blockNumber()">BlockNumber</button> -->
+    <!-- <button id="blockNumber" value="block" onclick="blockNumber2()">BlockNumber2</button> -->
+
+  <p id="print"></p>
+</body>
+
+<script>
+  
+  function addToNumber() {
+    const number=document.getElementById("inputNumber").value;
+    const str = number.toString();
+    const output = [str[0]];
+    document.write(number + "<br>");
+    
+    for (let x = 1; x < str.length; x++) {
+      if ((str[x - 1] % 2 === 0) && (str[x] % 2 === 0)) {
+        output.push('-', str[x]);
+      }
+      else {
+        output.push(str[x]);
+      }
+    }
+    console.log(output.join(''));
+    document.write(output.join(''));
+  }
+</script>
+
+</html>

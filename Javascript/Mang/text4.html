@@ -1,0 +1,34 @@
+<html>
+
+<head>
+    <meta charset=utf-8 />
+    <title>Swap the case of each character of a string</title>
+
+</head>
+
+<body>
+    <input id="input" type="text">
+    <button onclick="click1()">ouput</button>
+    <div id="result"></div>
+    <script>
+        function click1() {
+            let str = document.getElementById("input").value;
+            let tiengViet = ["toan", "ly", "hoa", "van"];
+            let english = ["maths", "physical", "chemistry", "literary"];
+            let bienao =false;
+            for (let x = 0; x < tiengViet.length; x++) {
+                if (str === tiengViet[x]) {
+                    flag =true;
+                    document.getElementById("result").innerHTML = english[x];
+                }
+            }
+            if(bienao==false){
+                alert("ko tìm thấy");
+            }
+
+        }
+
+    </script>
+</body>
+
+</html>

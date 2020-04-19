@@ -1,0 +1,97 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <!-- <input type="text" id="txtn"><br>
+    <input type="text" id="txtm">
+    <input type="button" id="btndisplay" value="Display" onclick="display_to_array();">
+    <div id="result"></div>
+    <script>
+        let n = document.getElementById("txtn");
+        let m = document.getElementById("txtm");
+        let arr = [];
+        for (i= 0; i< n; i++){
+            arr = [];
+            for (j = 0; j <m;j++){
+                let a = Math.floor(Math.random() * 10 + 1);
+                arr[i][j] = a;
+            }
+        }
+        for (i = 0; i < n; i++) {
+            document.write(arr[i] + "<br>");
+        }
+
+        function display_to_array(){
+            let sum = 0;
+            for (let i=0; i < arr.length; i++){
+                sum += arr[i][j];  
+            }
+            document.getElementById("result").innerHTML = sum;
+        }
+    </script> -->
+    <div id="matrix">
+
+    </div>
+    <div id="total"></div>
+    <script>
+        function enterNumber() {
+            let n = 0;
+            n = +prompt("Enter your number: ");
+            return n;
+            // return +prompt("Enter your number: ");
+        }
+        function generateMatrix(row, column) {
+            let matrix = [];
+            for (let i = 0; i < row; i++) {
+                let arr = [];
+                for (let j = 0; j < column; j++) {
+                    arr[j] = Math.floor(Math.random() * 10 + 1);
+                }
+                matrix[i] = arr;
+            }
+            return matrix;
+        }
+
+        function printMatrix(matrix, row, column) {
+            let show = "<table border=1>";
+            for (let i = 0; i < row; i++) {
+                show += "<tr>";
+                for (let j = 0; j < column; j++) {
+                    show += "<td>" + matrix[i][j] + "</td>";
+                }
+                show += "</tr>";
+            }
+            show += "</table>";
+            return show;
+        }
+        function totalMatrix(matrix, row, column) {
+            let total = 0;
+            for (let i = 0; i < row; i++) {
+                for (let j = 0; j < column; j++) {
+                    total += matrix[i][j];
+                }
+            }
+            return total;
+        }
+
+        function main() {
+            let row = enterNumber();
+            let column = enterNumber();
+            let matrix = generateMatrix(row, column);
+            let printer = printMatrix(matrix, row, column);
+            let total = totalMatrix(matrix, row, column);
+            document.write(printer);
+            document.write(total);
+            document.getElementById("matrix").innerHTML = printer;
+        }
+
+        main();
+    </script>
+</body>
+
+</html>

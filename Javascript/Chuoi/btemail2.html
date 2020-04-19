@@ -1,0 +1,27 @@
+<html>
+
+<head>
+    <meta charset=utf-8 />
+    <title>Check Email</title>
+   
+</head>
+
+<body>
+    <input type="text" name="" id="input">
+    <button onclick="useName()">UseName</button>
+    <script>
+        function useName() {
+            str = document.getElementById("input").value;
+            let useName =/^[_a-z0-9]{6,}$/;
+            if (useName.test(str)) {
+                console.log("Tên đăng nhập hợp lệ");
+            } else {
+                console.log("Tên đăng nhập không hợp lệ");
+            }
+        }
+       
+
+    </script>
+</body>
+
+</html>

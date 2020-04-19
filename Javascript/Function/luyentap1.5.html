@@ -1,0 +1,50 @@
+<html>
+
+<head></head>
+
+<body>
+    <form>
+        <p>
+            <label>Luyện tập 1.5</label>
+            <input id="name" type="text" placeholder="Name" oninput="main()">
+        </p>
+        <p>Result: <span id="result"></span>
+        </p>
+    </form>
+</body>
+<script>
+    function mangNgoiSao() {
+        let array = ["Polaris", "Aldebaran", "Deneb", "Vega", "Altair", "Dubhe", "Regulus"];
+        return array;
+    }
+    function mangChomSao() {
+        let array2 = ["Ursa Minor", "Tarurus", "Cygnus", "Lyra", "Aquila", " Ursa Major ", "Leo"];
+        return array2;
+    }
+    function nhapTenNgoiSao() {
+        return document.getElementById("name").value;
+    }
+    function check(name, array, array2) {
+        result = "";
+        for (i = 0; i < array.length; i++) {
+            if (name === array[i]) {
+                result = array2[i];
+               break;
+            
+            }
+        }
+        if ( result === "") {
+            result = "Không tìm thấy ngôi sao"
+        }
+        return result;
+    }
+    function main() {
+        let array = mangNgoiSao();
+        let array2 = mangChomSao();
+        let name = nhapTenNgoiSao();
+        let result =  check(name, array, array2);
+        document.getElementById("result").innerHTML = result;
+    }
+</script>
+
+</html>

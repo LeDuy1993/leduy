@@ -1,0 +1,52 @@
+<html>
+
+<head>
+    <meta charset=utf-8 />
+    <title>Đếm số từ</title>
+
+
+</head>
+
+<body>
+    <input type="text" name="" id="input">
+    <button onclick="Check()">Đếm số từ</button>
+
+    <script>
+        function Check() {
+            str = document.getElementById("input").value;
+            let str2 = str.toLowerCase().replace(/(^|\s)\S/g, a => a.toUpperCase());
+            console.log(str2);
+            patt = /[aeoiu]/ig;
+            //    str3 = str.match(patt);
+            //    console.log(str3);
+            //    console.log(str3.length)
+            let str1 = str2.split(" ");
+            
+       
+            times = 0; // số lần xuất hiện của số number
+            for (i = 0; i < str1.length; i++) {
+                if (str1[i]=="") {
+                    times += 1;
+                }
+            }
+            timesRun = 0;
+            while (timesRun <= times) {
+                for (i = 0; i < str1.length; i++) {
+                    if (str1[i]==="") {
+                        for (i; i < str1.length - 1; i++) {
+                            str1[i] = str1[i + 1];
+                        }
+                        str1.pop();
+                    }
+                }
+                timesRun += 1;
+            }
+            console.log(str1);
+
+        }
+
+
+    </script>
+</body>
+
+</html>

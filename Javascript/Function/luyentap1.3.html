@@ -1,0 +1,54 @@
+<html>
+
+<head>
+    <style>
+        div {
+            border: 1px solid teal;
+            border-radius: 10px;
+            height: 150px;
+            width: 50%;
+            padding: 10px;
+
+        }
+    </style>
+</head>
+
+<body>
+    <div>
+        <form>
+            <p>
+                <label>Luyện tập 1.3</label>
+                <input id="number1" type="number" placeholder="Number" oninput="main()">
+                <input id="number2" type="number" placeholder="Number" oninput="main()">
+            </p>
+            <p>Result: <span id="result"></span>
+            </p>
+        </form>
+    </div>
+</body>
+<script>
+    function nhapNumber1() {
+      return parseInt(document.getElementById("number1").value);
+    }
+    function nhapNumber2() {
+      return parseInt(document.getElementById("number2").value);
+    }
+    function checkNumber(number1, number2) {
+        let result = "";
+        if(number1>number2){
+            result ="Number 1 lớn hơn không tính tổng."
+        }
+        else{
+            result = number1 +  number2;
+        }
+        return result;
+    }
+    function main(){
+        let number1 = nhapNumber1();
+        let number2 = nhapNumber2();
+        let result = checkNumber(number1, number2);
+        document.getElementById("result").innerHTML = result;
+    }
+</script>
+
+</html>

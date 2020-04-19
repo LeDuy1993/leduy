@@ -1,0 +1,114 @@
+<html>
+
+<body>
+    Bài 1-8- Viết chương trình khởi tạo/nhập vào một mảng số nguyên và đảo ngược các phần tử trong mảng đó.>
+
+
+    <p id="result"></p>
+</body>
+<script>
+    let array = Array();
+    dem = 0;
+
+    for (i = 0; i < 10; i++) {
+        array[i] = Math.floor(Math.random() * 10 - 5);
+        document.write(array[i] + " ");
+        if (array[i] < 0) {
+            dem += 1;
+        }
+    }
+    // Tìm giá trí lớn nhất:
+    max = array[0];
+    sum = 0;
+    trungBinh = 0;
+    for (i = 0; i < 10; i++) {
+        if (max < array[i]) {
+            max = array[i];
+        }
+        sum += array[i];
+        trungBinh = sum / array.length;
+    }
+    //Tìm newarray=[5] có trong araay không với newarray là 1 số random:
+    let v = Math.floor(Math.random() * 10 - 5);
+    thongbao = "";
+    for (i = 0; i < 10; i++) {
+        if (v === array[i]) {
+            thongbao = "V is in the array";
+            break;
+        }
+
+        else {
+            thongbao = "V is not in the array";
+
+        }
+    }
+
+
+    document.write("<br>")
+    console.log(array[2]);
+    document.write(array);
+    document.write("<br>")
+    document.write(array.join(",  ") + "<br>");
+    document.write("Mảng đảo ngược:" + array.reverse(" ") + "<br>");
+    document.write("Số lượng số nguyên âm:" + dem + "<br>");
+    document.write("Max:" + max + "<br>");
+    document.write("Trung bình:" + trungBinh + "<br>");
+    document.write("V:" + v + "<br>");
+    document.write(thongbao + "<br>");
+    /// xếp theo chiều nhỏ dần
+    let array1 = array;
+    for (i = 0; i < 10; i++) {
+        for (j = i + 1; j < 10; j++) {
+            if (array1[i] < array1[j]) {
+                array1[i] = array1[j] - array1[i];
+                array1[j] = array1[j] - array1[i];
+                array1[i] = array1[j] + array1[i];
+            }
+        }
+    }
+    document.write("Mảng từ lớn đến nhỏ:" + array1 + "<br>");
+
+    /// Xóa phần tử giống V trong mảng
+    let number = Math.floor(Math.random() * 10 - 5);
+    times = 0; // số lần xuất hiện của số number
+    for (i = 0; i < 10; i++) {
+        if (number === array[i]) {
+            times += 1;
+        }
+    }
+    timesRun = 0;
+    while (timesRun <= times) {
+        for (i = 0; i < array.length; i++) {
+            if (number === array[i]) {
+                for (i; i < array.length - 1; i++) {
+                    array1[i] = array1[i + 1];
+                }
+                array.pop();
+            }
+        }
+        timesRun += 1;
+    }
+    document.write("Nhập V2:" + number + "<br>");
+    document.write("Số lần V2 xuất hiện: " + times + "<br>");
+    document.write("Mảng sau khi xóa V2:" + array + "<br>");
+    //Nổi mảng a vs b thành mảng C
+    let arraya = Array();
+    arrayb = Array();
+    for (i = 0; i < 10; i++) {
+        arraya[i] = Math.floor(Math.random() * 10 + 10);
+    }
+    for (i = 0; i < 10; i++) {
+        arrayb[i] = Math.floor(Math.random() * 10 + 20);
+    }
+    document.write("Mảng 1: " + arraya + "<br>");
+    document.write("Mảng 2: " + arrayb + "<br>");
+    let arrayc = arraya.concat(arrayb);
+    document.write("Mảng 3: " + arrayc + "<br>");
+    // array[i] = array[i + 1] - array[i];
+// array[i + 1] = array[i + 1] - array[i];
+// array[i] = array[i + 1] + array[i];
+
+</script>
+
+
+</html>

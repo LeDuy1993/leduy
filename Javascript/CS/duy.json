@@ -1,0 +1,52 @@
+{
+  "Students": [
+    {
+      "fullName": "Ân Ngáo",
+      "avatar": "images/3.jpg",
+      "amount": "2",
+      "id": 4
+    },
+    {
+      "fullName": "Ngân",
+      "avatar": "images/3.jpg",
+      "amount": "4",
+      "id": 6
+    },
+    {
+      "fullName": " Ngáo đá",
+      "avatar": "images/2.jpg",
+      "amount": " 1",
+      "id": 7
+    },
+    {
+      "fullName": "Duy Lê",
+      "avatar": "images/3.jpg",
+      "amount": "3",
+      "id": 8
+    },
+    {
+      "fullName": "Duy Lê",
+      "avatar": "images/3.jpg",
+      "amount": "4",
+      "id": 9
+    },
+    {
+      "fullName": " duy",
+      "avatar": " images/2.jpg",
+      "amount": " 4",
+      "id": 10
+    }
+  ],
+  "DuyUsers": [
+    {
+      "id": "1",
+      "userName": "leduyjapan1993@gmail.com",
+      "password": "conchimnon"
+    },
+    {
+      "id": "2",
+      "userName": "leduyjapan1993@gmail.com",
+      "password": "conchimnon"
+    }
+  ]
+}

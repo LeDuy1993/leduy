@@ -1,0 +1,60 @@
+<html>
+    <head></head>
+    <body>
+        <script>
+            class Lamp{
+                constructor(b){
+                    this.battery = b;
+                    this.status = false;
+                }
+                turnOn(){
+                    this.status = true;
+                }
+                turnOff(){
+                    this.status = false;
+                }
+                getStatus(){
+                    return this.status;
+                }
+                decrementBattery(){
+                    if(this.battery <=0){
+                        this.status = false
+                    }
+                    else{
+                        this.battery -=1;
+                    }
+                }
+            }
+            class SwitchButton{
+                constructor(){
+                    this.status = false;
+                }
+                connect(lamp){
+                    this.Lamp = lamp;
+                }
+                switchOn(){
+                    this.status = true;
+                    this.Lamp.turnOn();
+                }
+                switchOff(){
+                    this.status = false;
+                    this.Lamp.turnOff();
+                }
+                isUseBattery(){
+                    this.Lamp.decrementBattery();
+                }
+                getStatus(){
+                    return this.status;
+                }
+            }
+            let neon = new Lamp(10);
+            let congTat = new SwitchButton();
+            congTat.connect(neon);
+            function isOn(){
+                congTat.isUseBattery();
+                setInterval(isOn, 1000)
+            }
+            document.write(neon.battery)
+        </script>
+    </body>
+</html>
