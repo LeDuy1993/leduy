@@ -1,0 +1,122 @@
+<html>
+
+<head>
+    <style>
+        td {
+            border-collapse: collapse;
+            border: solid 1px;
+        }
+    </style>
+</head>
+
+<body>
+    <p>Hệ nhị phân sang hệ thập lục phân</p>
+
+    <table>
+        <tr>
+            <td>
+                <p>Nhập số nhị phân</p>
+            </td>
+            <td>
+                <input id="number1" type='number' onkeypress='validate(event)' />
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <button onclick="click1()">Hệ thập lục phân</button>
+            </td>
+            <td>
+                <input id="number2" type="text" disabled>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <button style="width: 100%;" onclick="click2()">Hệ bát phân</button>
+            </td>
+            <td>
+                <input id="number3" type="text" disabled>
+            </td>
+        </tr>
+
+    </table>
+
+    <script>
+        function validate(evt) {
+            var theEvent = evt || window.event;
+            if (theEvent.type === 'paste') {
+                key = event.clipboardData.getData('text/plain');
+            } else {
+                var key = theEvent.keyCode || theEvent.which;
+                key = String.fromCharCode(key);
+            }
+            var regex = /[0-1]|\./;
+            if (!regex.test(key)) {
+                theEvent.returnValue = false;
+                if (theEvent.preventDefault) theEvent.preventDefault();
+            }
+        }
+        function click1() {
+            let str = document.getElementById("number1").value;
+            let str1 = str.split("");
+            heThapLucPhan = [];
+            while (str1.length >= 4) {
+                str2 = str1.slice(str1.length - 4) // str2 = str.substr(- 4) giống nhau
+                console.log(str2)
+                let soThapPhan = 0; mu = str2.length - 1;
+                for (i = 0; i <= str2.length - 1; i++) {
+                    soThapPhan += str2[i] * 1 * Math.pow(2, mu);
+                    mu -= 1;
+                }
+                if (soThapPhan >= 10) {
+                    switch (soThapPhan) {
+                        case 10: soThapPhan = "A"; break;
+                        case 11: soThapPhan = "B"; break;
+                        case 12: soThapPhan = "C"; break;
+                        case 13: soThapPhan = "D"; break;
+                        case 14: soThapPhan = "E"; break;
+                        case 15: soThapPhan = "F"; break;
+                    }
+                }
+                heThapLucPhan.unshift(soThapPhan)
+                for (i = 0; i <= 3; i++) {
+                    str3 = str1.pop();
+                }
+                if (str1.length < 4 && str1.length > 0) {
+                    let soThapPhan = 0; mu = str1.length - 1;
+                    for (i = 0; i <= str1.length - 1; i++) {
+                        soThapPhan += str1[i] * 1 * Math.pow(2, mu);
+                        mu -= 1;
+                    }
+                    if (soThapPhan > 0) { heThapLucPhan.unshift(soThapPhan) }
+                }
+            }
+            document.getElementById("number2").value = heThapLucPhan.join('');
+
+        }
+        function click2() {
+            let str = document.getElementById("number1").value;
+            let str1 = str.split("");
+            heBatPhan = [];
+            while (str1.length >= 3) {
+                str2 = str1.slice(str1.length - 3) // str2 = str.substr(- 3b) giống nhau
+                let soThapPhan = 0;
+                soThapPhan += str2[2] * 1;
+                soThapPhan += str2[1] * 2;
+                soThapPhan += str2[0] * 4;
+                heBatPhan.unshift(soThapPhan)
+                for (i = 0; i <= 2; i++) { str1.pop(); }
+                if (str1.length < 3 && str1.length > 0) {
+                    let soThapPhan = 0; a = 1
+                    for (i = str1.length - 1; i >= 0; i--) {
+                        soThapPhan += str1[i] * a;
+                        a = a * 2;
+                    }
+                    if (soThapPhan > 0) { heBatPhan.unshift(soThapPhan) }
+                }
+            }
+            document.getElementById("number3").value = heBatPhan.join('');
+        }
+    </script>
+</body>
+
+</html>

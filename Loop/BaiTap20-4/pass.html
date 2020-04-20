@@ -1,0 +1,95 @@
+<html>
+
+<head>
+
+</head>
+
+<body>
+    <table>
+        <tr>
+            <td>
+                <button onclick="click1()">CheckPass</button>
+            </td>
+            <td>
+                <input id="pass" type='text' autofocus />
+            </td>
+        </tr>
+    </table>
+    <script>
+        function click1() {
+            let str = document.getElementById("pass").value;
+            let array1 = str.split("");
+            let str2 = "qwertyuiopasdfghjklzxcvbnm";
+            let array2 = str2.split("");
+            let str3 = str2.toUpperCase();
+            let array3 = str3.split("");
+            let str4 = "123456789"
+            let array4 = str4.split("");
+            let str5 = "!@#$%^&*()_+="
+            let array5 = str5.split("");
+            if (array1.length < 6) {
+                alert("Pass ko đủ bảo mật ít nhất phải 6 kí tự, xin nhập lại pass")
+            }
+            else {
+                let b = 0;
+                for (i = 0; i <= array1.length - 1; i++) {
+                    for (j = 0; j <= array2.length - 1; j++) {
+                        if (array1[i] == array2[j]) {
+                            b += 1;
+                        }
+                    }
+                }
+                if (b < 1) {
+                    alert("Pass phải có it nhât 1 ký tự thường, xin nhập lại pass")
+                }
+                else {
+                    let b = 0;
+                    for (i = 0; i <= array1.length - 1; i++) {
+                        for (j = 0; j <= array3.length - 1; j++) {
+                            if (array1[i] == array3[j]) {
+                                b += 1;
+                            }
+                        }
+                    }
+                    if (b < 1) {
+                        alert("Pass phải có it nhât 1 ký tự hoa, xin nhập lại pass")
+                    }
+                    else {
+                        let b = 0;
+                        for (i = 0; i <= array1.length - 1; i++) {
+                            for (j = 0; j <= array4.length - 1; j++) {
+                                if (array1[i] == array4[j]) {
+                                    b += 1;
+                                }
+                            }
+                        }
+                        if (b < 1) {
+                            alert("Pass phải có it nhât 1 ký tự số, xin nhập lại pass")
+                        }
+                        else {
+                            let b = 0;
+                            for (i = 0; i <= array1.length - 1; i++) {
+                                for (j = 0; j <= array5.length - 1; j++) {
+                                    if (array1[i] == array5[j]) {
+                                        b += 1;
+                                    }
+                                }
+                            }
+                            if (b < 1) {
+                                alert("Pass phải có it nhât 1 ký tự đặc biệt, xin nhập lại pass")
+                            }
+                            else {
+                                alert("chúc mừng bạn  pass đúng chuẩn rồi")
+                            }
+                        }
+                    }
+                }
+
+            }
+
+        }
+
+    </script>
+</body>
+
+</html>
