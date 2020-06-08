@@ -1,0 +1,13 @@
+E:\codegym\Module2\Arraylist\BtAnhKhoa\bin\Debug\netcoreapp3.1\BtAnhKhoa.exe
+E:\codegym\Module2\Arraylist\BtAnhKhoa\bin\Debug\netcoreapp3.1\BtAnhKhoa.deps.json
+E:\codegym\Module2\Arraylist\BtAnhKhoa\bin\Debug\netcoreapp3.1\BtAnhKhoa.runtimeconfig.json
+E:\codegym\Module2\Arraylist\BtAnhKhoa\bin\Debug\netcoreapp3.1\BtAnhKhoa.runtimeconfig.dev.json
+E:\codegym\Module2\Arraylist\BtAnhKhoa\bin\Debug\netcoreapp3.1\BtAnhKhoa.dll
+E:\codegym\Module2\Arraylist\BtAnhKhoa\bin\Debug\netcoreapp3.1\BtAnhKhoa.pdb
+E:\codegym\Module2\Arraylist\BtAnhKhoa\obj\Debug\netcoreapp3.1\BtAnhKhoa.csprojAssemblyReference.cache
+E:\codegym\Module2\Arraylist\BtAnhKhoa\obj\Debug\netcoreapp3.1\BtAnhKhoa.csproj.CoreCompileInputs.cache
+E:\codegym\Module2\Arraylist\BtAnhKhoa\obj\Debug\netcoreapp3.1\BtAnhKhoa.AssemblyInfoInputs.cache
+E:\codegym\Module2\Arraylist\BtAnhKhoa\obj\Debug\netcoreapp3.1\BtAnhKhoa.AssemblyInfo.cs
+E:\codegym\Module2\Arraylist\BtAnhKhoa\obj\Debug\netcoreapp3.1\BtAnhKhoa.dll
+E:\codegym\Module2\Arraylist\BtAnhKhoa\obj\Debug\netcoreapp3.1\BtAnhKhoa.pdb
+E:\codegym\Module2\Arraylist\BtAnhKhoa\obj\Debug\netcoreapp3.1\BtAnhKhoa.genruntimeconfig.cache

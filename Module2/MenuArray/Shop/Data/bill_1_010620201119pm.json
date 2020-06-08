@@ -1,0 +1,24 @@
+{
+  "orderId": 1,
+  "status": "paid",
+  "time": "01/06/2020 11:19 pm",
+  "custumer": {
+    "name": "Duy",
+    "address": "15 Lê Lợi"
+  },
+  "products": [
+    {
+      "nameProduct": "kem",
+      "price": 10.0,
+      "amount": 2,
+      "total": 20.0
+    },
+    {
+      "nameProduct": "chuối",
+      "price": 10.0,
+      "amount": 2,
+      "total": 20.0
+    }
+  ],
+  "total": 40.0
+}

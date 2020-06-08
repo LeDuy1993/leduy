@@ -1,0 +1,13 @@
+E:\codegym\Module2\BaiTap\sumBinhPhuong\bin\Debug\netcoreapp3.1\sumBinhPhuong.exe
+E:\codegym\Module2\BaiTap\sumBinhPhuong\bin\Debug\netcoreapp3.1\sumBinhPhuong.deps.json
+E:\codegym\Module2\BaiTap\sumBinhPhuong\bin\Debug\netcoreapp3.1\sumBinhPhuong.runtimeconfig.json
+E:\codegym\Module2\BaiTap\sumBinhPhuong\bin\Debug\netcoreapp3.1\sumBinhPhuong.runtimeconfig.dev.json
+E:\codegym\Module2\BaiTap\sumBinhPhuong\bin\Debug\netcoreapp3.1\sumBinhPhuong.dll
+E:\codegym\Module2\BaiTap\sumBinhPhuong\bin\Debug\netcoreapp3.1\sumBinhPhuong.pdb
+E:\codegym\Module2\BaiTap\sumBinhPhuong\obj\Debug\netcoreapp3.1\sumBinhPhuong.csprojAssemblyReference.cache
+E:\codegym\Module2\BaiTap\sumBinhPhuong\obj\Debug\netcoreapp3.1\sumBinhPhuong.csproj.CoreCompileInputs.cache
+E:\codegym\Module2\BaiTap\sumBinhPhuong\obj\Debug\netcoreapp3.1\sumBinhPhuong.AssemblyInfoInputs.cache
+E:\codegym\Module2\BaiTap\sumBinhPhuong\obj\Debug\netcoreapp3.1\sumBinhPhuong.AssemblyInfo.cs
+E:\codegym\Module2\BaiTap\sumBinhPhuong\obj\Debug\netcoreapp3.1\sumBinhPhuong.dll
+E:\codegym\Module2\BaiTap\sumBinhPhuong\obj\Debug\netcoreapp3.1\sumBinhPhuong.pdb
+E:\codegym\Module2\BaiTap\sumBinhPhuong\obj\Debug\netcoreapp3.1\sumBinhPhuong.genruntimeconfig.cache

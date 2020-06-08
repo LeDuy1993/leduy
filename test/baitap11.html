@@ -1,0 +1,31 @@
+<html>
+
+<body>
+
+    <script>
+        function isPrerfecNumber(number) {
+            if (number <= 0 || typeof number !== "number" || number % 1 !== 0) {
+                return false;
+            }
+            else {
+                sum = 0;
+                for (let i = 1; i < number; i++) {
+                    if (number % i === 0) {
+                        sum = sum + i;
+                    }
+                }
+                if (sum === number) {
+                    return true;
+                }
+                else {
+                    return false;
+                }
+            }
+        }
+        let number =6.6;
+        let result = isPrerfecNumber(number);
+        console.log(result)
+    </script>
+</body>
+
+</html>

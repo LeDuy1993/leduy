@@ -1,0 +1,28 @@
+<html>
+
+<head>
+
+</head>
+
+<body>
+    <script>
+        function isPrime(number) {
+            let bienDem = 1;
+            let result = true;
+            for (let i = 2; i <= Math.sqrt(number); i++) {
+                if (number % i == 0) {
+                    bienDem += 1;
+                }
+            }
+            if (bienDem >= 2 || number == 1) {
+                result = false;
+            }
+            return result;
+        }
+        let number = 99;
+        let result = isPrime(number);
+        console.log(number + " là số nguyên tố ?: " + result)
+    </script>
+</body>
+
+</html>

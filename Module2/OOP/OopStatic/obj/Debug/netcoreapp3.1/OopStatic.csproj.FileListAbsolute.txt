@@ -1,0 +1,13 @@
+E:\codegym\Module2\OOP\OopStatic\bin\Debug\netcoreapp3.1\OopStatic.exe
+E:\codegym\Module2\OOP\OopStatic\bin\Debug\netcoreapp3.1\OopStatic.deps.json
+E:\codegym\Module2\OOP\OopStatic\bin\Debug\netcoreapp3.1\OopStatic.runtimeconfig.json
+E:\codegym\Module2\OOP\OopStatic\bin\Debug\netcoreapp3.1\OopStatic.runtimeconfig.dev.json
+E:\codegym\Module2\OOP\OopStatic\bin\Debug\netcoreapp3.1\OopStatic.dll
+E:\codegym\Module2\OOP\OopStatic\bin\Debug\netcoreapp3.1\OopStatic.pdb
+E:\codegym\Module2\OOP\OopStatic\obj\Debug\netcoreapp3.1\OopStatic.csprojAssemblyReference.cache
+E:\codegym\Module2\OOP\OopStatic\obj\Debug\netcoreapp3.1\OopStatic.csproj.CoreCompileInputs.cache
+E:\codegym\Module2\OOP\OopStatic\obj\Debug\netcoreapp3.1\OopStatic.AssemblyInfoInputs.cache
+E:\codegym\Module2\OOP\OopStatic\obj\Debug\netcoreapp3.1\OopStatic.AssemblyInfo.cs
+E:\codegym\Module2\OOP\OopStatic\obj\Debug\netcoreapp3.1\OopStatic.dll
+E:\codegym\Module2\OOP\OopStatic\obj\Debug\netcoreapp3.1\OopStatic.pdb
+E:\codegym\Module2\OOP\OopStatic\obj\Debug\netcoreapp3.1\OopStatic.genruntimeconfig.cache

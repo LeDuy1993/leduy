@@ -1,0 +1,13 @@
+E:\codegym\Module2\Arraylist\PhoneList\bin\Debug\netcoreapp3.1\PhoneList.exe
+E:\codegym\Module2\Arraylist\PhoneList\bin\Debug\netcoreapp3.1\PhoneList.deps.json
+E:\codegym\Module2\Arraylist\PhoneList\bin\Debug\netcoreapp3.1\PhoneList.runtimeconfig.json
+E:\codegym\Module2\Arraylist\PhoneList\bin\Debug\netcoreapp3.1\PhoneList.runtimeconfig.dev.json
+E:\codegym\Module2\Arraylist\PhoneList\bin\Debug\netcoreapp3.1\PhoneList.dll
+E:\codegym\Module2\Arraylist\PhoneList\bin\Debug\netcoreapp3.1\PhoneList.pdb
+E:\codegym\Module2\Arraylist\PhoneList\obj\Debug\netcoreapp3.1\PhoneList.csprojAssemblyReference.cache
+E:\codegym\Module2\Arraylist\PhoneList\obj\Debug\netcoreapp3.1\PhoneList.csproj.CoreCompileInputs.cache
+E:\codegym\Module2\Arraylist\PhoneList\obj\Debug\netcoreapp3.1\PhoneList.AssemblyInfoInputs.cache
+E:\codegym\Module2\Arraylist\PhoneList\obj\Debug\netcoreapp3.1\PhoneList.AssemblyInfo.cs
+E:\codegym\Module2\Arraylist\PhoneList\obj\Debug\netcoreapp3.1\PhoneList.dll
+E:\codegym\Module2\Arraylist\PhoneList\obj\Debug\netcoreapp3.1\PhoneList.pdb
+E:\codegym\Module2\Arraylist\PhoneList\obj\Debug\netcoreapp3.1\PhoneList.genruntimeconfig.cache

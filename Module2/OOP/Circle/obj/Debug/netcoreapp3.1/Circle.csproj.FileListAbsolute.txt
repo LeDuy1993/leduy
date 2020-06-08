@@ -1,0 +1,13 @@
+E:\codegym\Module2\OOP\Circle\bin\Debug\netcoreapp3.1\Circle.exe
+E:\codegym\Module2\OOP\Circle\bin\Debug\netcoreapp3.1\Circle.deps.json
+E:\codegym\Module2\OOP\Circle\bin\Debug\netcoreapp3.1\Circle.runtimeconfig.json
+E:\codegym\Module2\OOP\Circle\bin\Debug\netcoreapp3.1\Circle.runtimeconfig.dev.json
+E:\codegym\Module2\OOP\Circle\bin\Debug\netcoreapp3.1\Circle.dll
+E:\codegym\Module2\OOP\Circle\bin\Debug\netcoreapp3.1\Circle.pdb
+E:\codegym\Module2\OOP\Circle\obj\Debug\netcoreapp3.1\Circle.csprojAssemblyReference.cache
+E:\codegym\Module2\OOP\Circle\obj\Debug\netcoreapp3.1\Circle.csproj.CoreCompileInputs.cache
+E:\codegym\Module2\OOP\Circle\obj\Debug\netcoreapp3.1\Circle.AssemblyInfoInputs.cache
+E:\codegym\Module2\OOP\Circle\obj\Debug\netcoreapp3.1\Circle.AssemblyInfo.cs
+E:\codegym\Module2\OOP\Circle\obj\Debug\netcoreapp3.1\Circle.dll
+E:\codegym\Module2\OOP\Circle\obj\Debug\netcoreapp3.1\Circle.pdb
+E:\codegym\Module2\OOP\Circle\obj\Debug\netcoreapp3.1\Circle.genruntimeconfig.cache

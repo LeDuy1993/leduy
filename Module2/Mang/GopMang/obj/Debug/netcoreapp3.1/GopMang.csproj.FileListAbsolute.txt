@@ -1,0 +1,13 @@
+E:\codegym\Module2\Mang\GopMang\bin\Debug\netcoreapp3.1\GopMang.exe
+E:\codegym\Module2\Mang\GopMang\bin\Debug\netcoreapp3.1\GopMang.deps.json
+E:\codegym\Module2\Mang\GopMang\bin\Debug\netcoreapp3.1\GopMang.runtimeconfig.json
+E:\codegym\Module2\Mang\GopMang\bin\Debug\netcoreapp3.1\GopMang.runtimeconfig.dev.json
+E:\codegym\Module2\Mang\GopMang\bin\Debug\netcoreapp3.1\GopMang.dll
+E:\codegym\Module2\Mang\GopMang\bin\Debug\netcoreapp3.1\GopMang.pdb
+E:\codegym\Module2\Mang\GopMang\obj\Debug\netcoreapp3.1\GopMang.csprojAssemblyReference.cache
+E:\codegym\Module2\Mang\GopMang\obj\Debug\netcoreapp3.1\GopMang.csproj.CoreCompileInputs.cache
+E:\codegym\Module2\Mang\GopMang\obj\Debug\netcoreapp3.1\GopMang.AssemblyInfoInputs.cache
+E:\codegym\Module2\Mang\GopMang\obj\Debug\netcoreapp3.1\GopMang.AssemblyInfo.cs
+E:\codegym\Module2\Mang\GopMang\obj\Debug\netcoreapp3.1\GopMang.dll
+E:\codegym\Module2\Mang\GopMang\obj\Debug\netcoreapp3.1\GopMang.pdb
+E:\codegym\Module2\Mang\GopMang\obj\Debug\netcoreapp3.1\GopMang.genruntimeconfig.cache

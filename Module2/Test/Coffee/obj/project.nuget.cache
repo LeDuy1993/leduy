@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "+DMy/I3939/Ykl1DqpeQ0+u6khDcU46UttF7okrYc8DIEAi3V+usMRMfwfR/XaKfuR1hkJdcmJD2Lawjub35Ag==",
+  "success": true,
+  "projectFilePath": "E:\\codegym\\Module2\\Test\\Coffee\\Coffee.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\HP\\.nuget\\packages\\newtonsoft.json\\12.0.3\\newtonsoft.json.12.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}

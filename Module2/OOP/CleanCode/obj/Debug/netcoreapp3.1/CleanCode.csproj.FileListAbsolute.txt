@@ -1,0 +1,13 @@
+E:\codegym\Module2\OOP\CleanCode\bin\Debug\netcoreapp3.1\CleanCode.exe
+E:\codegym\Module2\OOP\CleanCode\bin\Debug\netcoreapp3.1\CleanCode.deps.json
+E:\codegym\Module2\OOP\CleanCode\bin\Debug\netcoreapp3.1\CleanCode.runtimeconfig.json
+E:\codegym\Module2\OOP\CleanCode\bin\Debug\netcoreapp3.1\CleanCode.runtimeconfig.dev.json
+E:\codegym\Module2\OOP\CleanCode\bin\Debug\netcoreapp3.1\CleanCode.dll
+E:\codegym\Module2\OOP\CleanCode\bin\Debug\netcoreapp3.1\CleanCode.pdb
+E:\codegym\Module2\OOP\CleanCode\obj\Debug\netcoreapp3.1\CleanCode.csprojAssemblyReference.cache
+E:\codegym\Module2\OOP\CleanCode\obj\Debug\netcoreapp3.1\CleanCode.csproj.CoreCompileInputs.cache
+E:\codegym\Module2\OOP\CleanCode\obj\Debug\netcoreapp3.1\CleanCode.AssemblyInfoInputs.cache
+E:\codegym\Module2\OOP\CleanCode\obj\Debug\netcoreapp3.1\CleanCode.AssemblyInfo.cs
+E:\codegym\Module2\OOP\CleanCode\obj\Debug\netcoreapp3.1\CleanCode.dll
+E:\codegym\Module2\OOP\CleanCode\obj\Debug\netcoreapp3.1\CleanCode.pdb
+E:\codegym\Module2\OOP\CleanCode\obj\Debug\netcoreapp3.1\CleanCode.genruntimeconfig.cache

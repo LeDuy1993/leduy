@@ -1,0 +1,13 @@
+E:\codegym\Module2\Mang\MangDaoNguoc\bin\Debug\netcoreapp3.1\MangDaoNguoc.exe
+E:\codegym\Module2\Mang\MangDaoNguoc\bin\Debug\netcoreapp3.1\MangDaoNguoc.deps.json
+E:\codegym\Module2\Mang\MangDaoNguoc\bin\Debug\netcoreapp3.1\MangDaoNguoc.runtimeconfig.json
+E:\codegym\Module2\Mang\MangDaoNguoc\bin\Debug\netcoreapp3.1\MangDaoNguoc.runtimeconfig.dev.json
+E:\codegym\Module2\Mang\MangDaoNguoc\bin\Debug\netcoreapp3.1\MangDaoNguoc.dll
+E:\codegym\Module2\Mang\MangDaoNguoc\bin\Debug\netcoreapp3.1\MangDaoNguoc.pdb
+E:\codegym\Module2\Mang\MangDaoNguoc\obj\Debug\netcoreapp3.1\MangDaoNguoc.csprojAssemblyReference.cache
+E:\codegym\Module2\Mang\MangDaoNguoc\obj\Debug\netcoreapp3.1\MangDaoNguoc.csproj.CoreCompileInputs.cache
+E:\codegym\Module2\Mang\MangDaoNguoc\obj\Debug\netcoreapp3.1\MangDaoNguoc.AssemblyInfoInputs.cache
+E:\codegym\Module2\Mang\MangDaoNguoc\obj\Debug\netcoreapp3.1\MangDaoNguoc.AssemblyInfo.cs
+E:\codegym\Module2\Mang\MangDaoNguoc\obj\Debug\netcoreapp3.1\MangDaoNguoc.dll
+E:\codegym\Module2\Mang\MangDaoNguoc\obj\Debug\netcoreapp3.1\MangDaoNguoc.pdb
+E:\codegym\Module2\Mang\MangDaoNguoc\obj\Debug\netcoreapp3.1\MangDaoNguoc.genruntimeconfig.cache

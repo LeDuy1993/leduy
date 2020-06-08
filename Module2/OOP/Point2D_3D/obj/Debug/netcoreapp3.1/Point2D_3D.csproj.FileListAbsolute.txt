@@ -1,0 +1,13 @@
+E:\codegym\Module2\OOP\Point2D_3D\obj\Debug\netcoreapp3.1\Point2D_3D.csprojAssemblyReference.cache
+E:\codegym\Module2\OOP\Point2D_3D\obj\Debug\netcoreapp3.1\Point2D_3D.csproj.CoreCompileInputs.cache
+E:\codegym\Module2\OOP\Point2D_3D\obj\Debug\netcoreapp3.1\Point2D_3D.AssemblyInfoInputs.cache
+E:\codegym\Module2\OOP\Point2D_3D\obj\Debug\netcoreapp3.1\Point2D_3D.AssemblyInfo.cs
+E:\codegym\Module2\OOP\Point2D_3D\bin\Debug\netcoreapp3.1\Point2D_3D.exe
+E:\codegym\Module2\OOP\Point2D_3D\bin\Debug\netcoreapp3.1\Point2D_3D.deps.json
+E:\codegym\Module2\OOP\Point2D_3D\bin\Debug\netcoreapp3.1\Point2D_3D.runtimeconfig.json
+E:\codegym\Module2\OOP\Point2D_3D\bin\Debug\netcoreapp3.1\Point2D_3D.runtimeconfig.dev.json
+E:\codegym\Module2\OOP\Point2D_3D\bin\Debug\netcoreapp3.1\Point2D_3D.dll
+E:\codegym\Module2\OOP\Point2D_3D\bin\Debug\netcoreapp3.1\Point2D_3D.pdb
+E:\codegym\Module2\OOP\Point2D_3D\obj\Debug\netcoreapp3.1\Point2D_3D.dll
+E:\codegym\Module2\OOP\Point2D_3D\obj\Debug\netcoreapp3.1\Point2D_3D.pdb
+E:\codegym\Module2\OOP\Point2D_3D\obj\Debug\netcoreapp3.1\Point2D_3D.genruntimeconfig.cache

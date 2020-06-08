@@ -1,0 +1,13 @@
+E:\codegym\Module2\Mang\DoiNhietDo\bin\Debug\netcoreapp3.1\DoiNhietDo.exe
+E:\codegym\Module2\Mang\DoiNhietDo\bin\Debug\netcoreapp3.1\DoiNhietDo.deps.json
+E:\codegym\Module2\Mang\DoiNhietDo\bin\Debug\netcoreapp3.1\DoiNhietDo.runtimeconfig.json
+E:\codegym\Module2\Mang\DoiNhietDo\bin\Debug\netcoreapp3.1\DoiNhietDo.runtimeconfig.dev.json
+E:\codegym\Module2\Mang\DoiNhietDo\bin\Debug\netcoreapp3.1\DoiNhietDo.dll
+E:\codegym\Module2\Mang\DoiNhietDo\bin\Debug\netcoreapp3.1\DoiNhietDo.pdb
+E:\codegym\Module2\Mang\DoiNhietDo\obj\Debug\netcoreapp3.1\DoiNhietDo.csprojAssemblyReference.cache
+E:\codegym\Module2\Mang\DoiNhietDo\obj\Debug\netcoreapp3.1\DoiNhietDo.csproj.CoreCompileInputs.cache
+E:\codegym\Module2\Mang\DoiNhietDo\obj\Debug\netcoreapp3.1\DoiNhietDo.AssemblyInfoInputs.cache
+E:\codegym\Module2\Mang\DoiNhietDo\obj\Debug\netcoreapp3.1\DoiNhietDo.AssemblyInfo.cs
+E:\codegym\Module2\Mang\DoiNhietDo\obj\Debug\netcoreapp3.1\DoiNhietDo.dll
+E:\codegym\Module2\Mang\DoiNhietDo\obj\Debug\netcoreapp3.1\DoiNhietDo.pdb
+E:\codegym\Module2\Mang\DoiNhietDo\obj\Debug\netcoreapp3.1\DoiNhietDo.genruntimeconfig.cache

@@ -1,0 +1,15 @@
+{
+  "OrderList": [
+    {
+      "NameDrink": "fd",
+      "Price": 2,
+      "Count": 2,
+      "Total": 4
+    }
+  ],
+  "TableID": "ban 2",
+  "Cashier": "Duy",
+  "StarTime": "29/5/2020 11:55:14 am",
+  "EndTime": "29/5/2020 11:55:50 am",
+  "SumTotal": 4
+}

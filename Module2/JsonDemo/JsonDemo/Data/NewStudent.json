@@ -1,0 +1,76 @@
+{
+  "students": [
+    {
+      "Id": 3,
+      "Fullname": "Ân Ngáo",
+      "Gender": "Nam",
+      "DOB": "12 Mar 2010",
+      "Age": 10,
+      "Toan": 9.3,
+      "Ly": 7.3,
+      "Hoa": 6.3,
+      "Average": 8.05,
+      "XepLoai": "Giỏi"
+    },
+    {
+      "Id": 4,
+      "Fullname": "Vũ Nhôm",
+      "Gender": "Nam",
+      "DOB": "12 Mar 2010",
+      "Age": 10,
+      "Toan": 5.3,
+      "Ly": 7.3,
+      "Hoa": 6.3,
+      "Average": 6.05,
+      "XepLoai": "Yếu"
+    },
+    {
+      "Id": 5,
+      "Fullname": "Cường Euro",
+      "Gender": "Nu",
+      "DOB": "12 Mar 2010",
+      "Age": 10,
+      "Toan": 3.3,
+      "Ly": 7.3,
+      "Hoa": 6.3,
+      "Average": 5.05,
+      "XepLoai": "Yếu"
+    },
+    {
+      "Id": 6,
+      "Fullname": "Duy $",
+      "Gender": "Nam",
+      "DOB": "07 Mar 2000",
+      "Age": 20,
+      "Toan": 6.3,
+      "Ly": 7.3,
+      "Hoa": 6.3,
+      "Average": 6.55,
+      "XepLoai": "TBK"
+    },
+    {
+      "Id": 7,
+      "Fullname": "Ngân Nùn",
+      "Gender": "Nu",
+      "DOB": "12 Mar 2004",
+      "Age": 16,
+      "Toan": 7.3,
+      "Ly": 7.3,
+      "Hoa": 6.3,
+      "Average": 7.05,
+      "XepLoai": "Khá"
+    },
+    {
+      "Id": 8,
+      "Fullname": "Hoàng Phan",
+      "Gender": "Nam",
+      "DOB": "07 Mar 2007",
+      "Age": 13,
+      "Toan": 9.3,
+      "Ly": 7.3,
+      "Hoa": 6.3,
+      "Average": 8.05,
+      "XepLoai": "Giỏi"
+    }
+  ]
+}

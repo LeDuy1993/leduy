@@ -1,0 +1,13 @@
+E:\codegym\Module2\thuchanh1\BMI\bin\Debug\netcoreapp3.1\BMI.exe
+E:\codegym\Module2\thuchanh1\BMI\bin\Debug\netcoreapp3.1\BMI.deps.json
+E:\codegym\Module2\thuchanh1\BMI\bin\Debug\netcoreapp3.1\BMI.runtimeconfig.json
+E:\codegym\Module2\thuchanh1\BMI\bin\Debug\netcoreapp3.1\BMI.runtimeconfig.dev.json
+E:\codegym\Module2\thuchanh1\BMI\bin\Debug\netcoreapp3.1\BMI.dll
+E:\codegym\Module2\thuchanh1\BMI\bin\Debug\netcoreapp3.1\BMI.pdb
+E:\codegym\Module2\thuchanh1\BMI\obj\Debug\netcoreapp3.1\BMI.csprojAssemblyReference.cache
+E:\codegym\Module2\thuchanh1\BMI\obj\Debug\netcoreapp3.1\BMI.csproj.CoreCompileInputs.cache
+E:\codegym\Module2\thuchanh1\BMI\obj\Debug\netcoreapp3.1\BMI.AssemblyInfoInputs.cache
+E:\codegym\Module2\thuchanh1\BMI\obj\Debug\netcoreapp3.1\BMI.AssemblyInfo.cs
+E:\codegym\Module2\thuchanh1\BMI\obj\Debug\netcoreapp3.1\BMI.dll
+E:\codegym\Module2\thuchanh1\BMI\obj\Debug\netcoreapp3.1\BMI.pdb
+E:\codegym\Module2\thuchanh1\BMI\obj\Debug\netcoreapp3.1\BMI.genruntimeconfig.cache

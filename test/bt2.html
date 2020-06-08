@@ -1,0 +1,27 @@
+<html>
+
+<body>
+    <script>
+        function tryAddFromArray(array, value, index) {
+            if (index < array.length && index >= 0) {
+                array[array.length] = value;
+                for (let i = array.length - 1; i > index; i--) {
+                    let a = array[i];
+                    array[i] = array[i - 1];
+                    array[i - 1] = a;
+                }
+                return array;
+            }
+            else {
+                return array;
+            }
+        }
+        let array = [1,2,3,4];
+        let value = "a";
+        let index = 2;
+        let newArray = tryAddFromArray(array, value, index);
+        console.log(newArray)
+    </script>
+</body>
+
+</html>

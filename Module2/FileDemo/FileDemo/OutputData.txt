@@ -1,0 +1,15 @@
+Sum of matrix: 573
+Count of Odd: 9
+Count of Prime: 3
+Print Matrix:
+47 30 23 28 
+64 15 45 41 
+44 21 45 21 
+28 38 62 21 
+
+Print Matrix X3:
+141 90 69 84 
+192 45 135 123 
+132 63 135 63 
+84 114 186 63 
+

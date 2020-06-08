@@ -1,0 +1,13 @@
+E:\codegym\Module2\thuchanh1\NumberSwapText\bin\Debug\netcoreapp3.1\NumberSwapText.exe
+E:\codegym\Module2\thuchanh1\NumberSwapText\bin\Debug\netcoreapp3.1\NumberSwapText.deps.json
+E:\codegym\Module2\thuchanh1\NumberSwapText\bin\Debug\netcoreapp3.1\NumberSwapText.runtimeconfig.json
+E:\codegym\Module2\thuchanh1\NumberSwapText\bin\Debug\netcoreapp3.1\NumberSwapText.runtimeconfig.dev.json
+E:\codegym\Module2\thuchanh1\NumberSwapText\bin\Debug\netcoreapp3.1\NumberSwapText.dll
+E:\codegym\Module2\thuchanh1\NumberSwapText\bin\Debug\netcoreapp3.1\NumberSwapText.pdb
+E:\codegym\Module2\thuchanh1\NumberSwapText\obj\Debug\netcoreapp3.1\NumberSwapText.csprojAssemblyReference.cache
+E:\codegym\Module2\thuchanh1\NumberSwapText\obj\Debug\netcoreapp3.1\NumberSwapText.csproj.CoreCompileInputs.cache
+E:\codegym\Module2\thuchanh1\NumberSwapText\obj\Debug\netcoreapp3.1\NumberSwapText.AssemblyInfoInputs.cache
+E:\codegym\Module2\thuchanh1\NumberSwapText\obj\Debug\netcoreapp3.1\NumberSwapText.AssemblyInfo.cs
+E:\codegym\Module2\thuchanh1\NumberSwapText\obj\Debug\netcoreapp3.1\NumberSwapText.dll
+E:\codegym\Module2\thuchanh1\NumberSwapText\obj\Debug\netcoreapp3.1\NumberSwapText.pdb
+E:\codegym\Module2\thuchanh1\NumberSwapText\obj\Debug\netcoreapp3.1\NumberSwapText.genruntimeconfig.cache

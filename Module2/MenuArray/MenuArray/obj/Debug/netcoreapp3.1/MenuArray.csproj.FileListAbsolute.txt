@@ -1,0 +1,13 @@
+E:\codegym\Module2\MenuArray\MenuArray\bin\Debug\netcoreapp3.1\MenuArray.exe
+E:\codegym\Module2\MenuArray\MenuArray\bin\Debug\netcoreapp3.1\MenuArray.deps.json
+E:\codegym\Module2\MenuArray\MenuArray\bin\Debug\netcoreapp3.1\MenuArray.runtimeconfig.json
+E:\codegym\Module2\MenuArray\MenuArray\bin\Debug\netcoreapp3.1\MenuArray.runtimeconfig.dev.json
+E:\codegym\Module2\MenuArray\MenuArray\bin\Debug\netcoreapp3.1\MenuArray.dll
+E:\codegym\Module2\MenuArray\MenuArray\bin\Debug\netcoreapp3.1\MenuArray.pdb
+E:\codegym\Module2\MenuArray\MenuArray\obj\Debug\netcoreapp3.1\MenuArray.csprojAssemblyReference.cache
+E:\codegym\Module2\MenuArray\MenuArray\obj\Debug\netcoreapp3.1\MenuArray.csproj.CoreCompileInputs.cache
+E:\codegym\Module2\MenuArray\MenuArray\obj\Debug\netcoreapp3.1\MenuArray.AssemblyInfoInputs.cache
+E:\codegym\Module2\MenuArray\MenuArray\obj\Debug\netcoreapp3.1\MenuArray.AssemblyInfo.cs
+E:\codegym\Module2\MenuArray\MenuArray\obj\Debug\netcoreapp3.1\MenuArray.dll
+E:\codegym\Module2\MenuArray\MenuArray\obj\Debug\netcoreapp3.1\MenuArray.pdb
+E:\codegym\Module2\MenuArray\MenuArray\obj\Debug\netcoreapp3.1\MenuArray.genruntimeconfig.cache

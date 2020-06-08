@@ -1,0 +1,76 @@
+{
+  "orders": [
+    {
+      "orderId": 1,
+      "status": "received",
+      "time": "29/05/2020 03:11 PM",
+      "custumer": {
+        "name": "Duy",
+        "address": "15 Lê Lợi"
+      },
+      "products": [
+        {
+          "nameProduct": "kem",
+          "price": 10.0,
+          "amount": 2,
+          "total": 20.0
+        },
+        {
+          "nameProduct": "chuối",
+          "price": 10.0,
+          "amount": 2,
+          "total": 20.0
+        }
+      ],
+      "total": 40.0
+    },
+    {
+      "orderId": 2,
+      "status": "received",
+      "time": null,
+      "custumer": {
+        "name": "Ân",
+        "address": "35 Hùng Vương"
+      },
+      "products": [
+        {
+          "nameProduct": "Chó Ân",
+          "price": 20.0,
+          "amount": 2,
+          "total": 40.0
+        },
+        {
+          "nameProduct": "Chó Ngao",
+          "price": 20.0,
+          "amount": 2,
+          "total": 40.0
+        }
+      ],
+      "total": 80.0
+    },
+    {
+      "orderId": 3,
+      "status": "received",
+      "time": null,
+      "custumer": {
+        "name": "Pháp",
+        "address": "Chợ đầu mối"
+      },
+      "products": [
+        {
+          "nameProduct": "Chó ngáo",
+          "price": 10.0,
+          "amount": 2,
+          "total": 20.0
+        },
+        {
+          "nameProduct": "Chó Ân",
+          "price": 1.0,
+          "amount": 2,
+          "total": 2.0
+        }
+      ],
+      "total": 22.0
+    }
+  ]
+}

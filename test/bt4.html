@@ -1,0 +1,33 @@
+<html>
+
+<head></head>
+
+<body>
+    <canvas id="myCanvass" width="1000px" height="1000px"
+        style="border :1px solid red;"></canvas>
+    <script>
+        class Animal {
+            constructor(x, y, name, width, height, image) {
+                this.x = x;
+                this.y = y;
+                this.name = name;
+                this.width = width;
+                this.height = height;
+                this.image = image;
+            }
+            render(x, y, name, width, height, image) {
+                var canvas = document.getElementById("myCanvass");
+                var context = canvas.getContext("2d");
+                var img = new Image();
+                img.onload = function () {
+                    context.drawImage(img, 0, 0, 200, 100);
+                }
+                img.src = this.image;
+            }
+        }
+        let cat = new Animal(50, 50, "áo tím", 200, 100, "admin.jpg");
+        cat.render(50, 50, "áo tím", 200, 100, "admin.jpg")
+    </script>
+</body>
+
+</html>

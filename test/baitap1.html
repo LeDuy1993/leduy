@@ -1,0 +1,25 @@
+<html>
+
+<head>
+
+</head>
+
+<body>
+    <script>
+        function findMinScore(arr) {
+            let min = arr[0];
+            for (let i = 0; i < arr.length; i++) {
+                if (arr[i] < min) {
+                    min = arr[i];
+                }
+            }
+            return min;
+        }
+        let array = [8, 6, 7, 8, 1.1, 5 , 8, -3];
+        let minScore = findMinScore(array);
+        console.log("Mảng : "+ array)
+        console.log( "Min : " + minScore);
+    </script>
+</body>
+
+</html>

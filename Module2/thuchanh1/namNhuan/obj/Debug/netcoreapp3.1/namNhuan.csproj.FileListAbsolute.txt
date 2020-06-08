@@ -1,0 +1,13 @@
+E:\codegym\Module2\thuchanh1\namNhuan\bin\Debug\netcoreapp3.1\namNhuan.exe
+E:\codegym\Module2\thuchanh1\namNhuan\bin\Debug\netcoreapp3.1\namNhuan.deps.json
+E:\codegym\Module2\thuchanh1\namNhuan\bin\Debug\netcoreapp3.1\namNhuan.runtimeconfig.json
+E:\codegym\Module2\thuchanh1\namNhuan\bin\Debug\netcoreapp3.1\namNhuan.runtimeconfig.dev.json
+E:\codegym\Module2\thuchanh1\namNhuan\bin\Debug\netcoreapp3.1\namNhuan.dll
+E:\codegym\Module2\thuchanh1\namNhuan\bin\Debug\netcoreapp3.1\namNhuan.pdb
+E:\codegym\Module2\thuchanh1\namNhuan\obj\Debug\netcoreapp3.1\namNhuan.csprojAssemblyReference.cache
+E:\codegym\Module2\thuchanh1\namNhuan\obj\Debug\netcoreapp3.1\namNhuan.csproj.CoreCompileInputs.cache
+E:\codegym\Module2\thuchanh1\namNhuan\obj\Debug\netcoreapp3.1\namNhuan.AssemblyInfoInputs.cache
+E:\codegym\Module2\thuchanh1\namNhuan\obj\Debug\netcoreapp3.1\namNhuan.AssemblyInfo.cs
+E:\codegym\Module2\thuchanh1\namNhuan\obj\Debug\netcoreapp3.1\namNhuan.dll
+E:\codegym\Module2\thuchanh1\namNhuan\obj\Debug\netcoreapp3.1\namNhuan.pdb
+E:\codegym\Module2\thuchanh1\namNhuan\obj\Debug\netcoreapp3.1\namNhuan.genruntimeconfig.cache

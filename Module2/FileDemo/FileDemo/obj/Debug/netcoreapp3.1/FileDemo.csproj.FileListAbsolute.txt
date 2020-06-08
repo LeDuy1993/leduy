@@ -1,0 +1,15 @@
+E:\codegym\Module2\FileDemo\FileDemo\bin\Debug\netcoreapp3.1\FileDemo.exe
+E:\codegym\Module2\FileDemo\FileDemo\bin\Debug\netcoreapp3.1\FileDemo.deps.json
+E:\codegym\Module2\FileDemo\FileDemo\bin\Debug\netcoreapp3.1\FileDemo.runtimeconfig.json
+E:\codegym\Module2\FileDemo\FileDemo\bin\Debug\netcoreapp3.1\FileDemo.runtimeconfig.dev.json
+E:\codegym\Module2\FileDemo\FileDemo\bin\Debug\netcoreapp3.1\FileDemo.dll
+E:\codegym\Module2\FileDemo\FileDemo\bin\Debug\netcoreapp3.1\FileDemo.pdb
+E:\codegym\Module2\FileDemo\FileDemo\obj\Debug\netcoreapp3.1\FileDemo.csprojAssemblyReference.cache
+E:\codegym\Module2\FileDemo\FileDemo\obj\Debug\netcoreapp3.1\FileDemo.AssemblyInfoInputs.cache
+E:\codegym\Module2\FileDemo\FileDemo\obj\Debug\netcoreapp3.1\FileDemo.AssemblyInfo.cs
+E:\codegym\Module2\FileDemo\FileDemo\obj\Debug\netcoreapp3.1\FileDemo.dll
+E:\codegym\Module2\FileDemo\FileDemo\obj\Debug\netcoreapp3.1\FileDemo.pdb
+E:\codegym\Module2\FileDemo\FileDemo\obj\Debug\netcoreapp3.1\FileDemo.genruntimeconfig.cache
+E:\codegym\Module2\FileDemo\FileDemo\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll
+E:\codegym\Module2\FileDemo\FileDemo\obj\Debug\netcoreapp3.1\FileDemo.csproj.CoreCompileInputs.cache
+E:\codegym\Module2\FileDemo\FileDemo\obj\Debug\netcoreapp3.1\FileDemo.csproj.CopyComplete

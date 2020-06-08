@@ -1,0 +1,174 @@
+<html>
+
+<head>
+    <style>
+        table {
+            border-collapse: collapse;
+        }
+
+        table,
+        th,
+        td {
+
+            border: 1px solid black;
+            padding: 2px;
+        }
+    </style>
+</head>
+
+<body>
+    <table>
+        <tbody>
+            <tr>
+                <td colspan="2">
+                    <p>Danh bạ của Duy</p>
+                </td>
+            </tr>
+            <tr>
+                <td>Name</td>
+                <td>
+                    <input type="text" id="inputName">
+                </td>
+            </tr>
+            <tr>
+                <td>Phone number</td>
+                <td>
+                    <input type="text" id="inputNumber">
+                </td>
+            </tr>
+            <tr>
+                <td colspan="2">
+                    <h5 id="msg">Danh bạ</h5>
+                    <p id="phonebook"></p>
+                </td>
+            </tr>
+            <tr>
+                <td colspan="2">
+                    <input type="button" value="Add" onclick="add()">
+                    <input type="button" value="Update" onclick="update()">
+                    <input type="button" value="Remove" onclick="del()">
+                </td>
+            </tr>
+        </tbody>
+    </table>
+    <script>
+
+        class contact {
+            constructor(n, p) {
+                this.name = n;
+                this.phoneNumber = p;
+            }
+            showContact() {
+                return "Name: " + this.name + ", Phone number: " + this.phoneNumber;
+            }
+
+        }
+        class DanhBa {
+            constructor() {
+                this.ContactDanhBa = [];
+            }
+
+            add(contact, name, phone) {
+                let checkName = this.check1(name);
+                let checkPhone = this.check2(phone);
+                if (checkName == -1 && checkPhone == -1) {
+                    this.ContactDanhBa.push(contact);
+                }
+            }
+            show() {
+                let array = "";
+                for (let i = 0; i < this.ContactDanhBa.length; i++) {
+                    array += this.ContactDanhBa[i].showContact() + "<br>";
+                }
+                return array;
+            }
+            check1(name) {
+                for (let i = 0; i < this.ContactDanhBa.length; i++) {
+                    if (this.ContactDanhBa[i].name.toLowerCase() == name.toLowerCase()) {
+                        return i;
+                    }
+                }
+                return -1;
+            }
+            check2(phone) {
+                for (let i = 0; i < this.ContactDanhBa.length; i++) {
+                    if (this.ContactDanhBa[i].phoneNumber == phone) {
+                        return i;
+                    }
+                }
+                return -1;
+            };
+            update(name, newNumber) {
+                let pos = this.check1(name);
+                if (pos != -1) {
+                    this.ContactDanhBa[pos].phoneNumber = newNumber;
+                }
+            }
+            delete1(name) {
+                let pos = this.check1(name);
+                if (pos != -1) {
+                    this.ContactDanhBa.splice(pos, 1);
+                }
+            }
+            delete2(phone) {
+                let pos = this.check2(phone);
+                if (pos != -1) {
+                    this.ContactDanhBa.splice(pos, 1);
+                }
+            }
+        }
+        let pb = new DanhBa();
+        function add() {
+            let name = document.getElementById("inputName").value;
+            let phone = document.getElementById("inputNumber").value;
+            if ((name != "") && (phone != "")) {
+                let ct = new contact(name, phone);
+                pb.add(ct, name, phone);
+                reset();
+                document.getElementById("phonebook").innerHTML = pb.show();
+                document.getElementById("msg").innerHTML = "Đã thêm vào danh bạ";
+            }
+            else {
+                document.getElementById("msg").innerHTML = "Tên hoặc SĐT bị thiếu";
+            }
+        }
+        function update() {
+            let name = document.getElementById("inputName").value;
+            let phone = document.getElementById("inputNumber").value;
+            if ((name !== "") && (phone !== "")) {
+                pb.update(name, phone);
+                reset();
+                document.getElementById("phonebook").innerHTML = pb.show();
+                document.getElementById("msg").innerHTML = "Đã update SĐT mới";
+            }
+            else {
+                document.getElementById("msg").innerHTML = "Tên hoặc SĐT bị thiếu";
+            }
+        }
+        function del() {
+            let name = document.getElementById("inputName").value;
+            let phone = document.getElementById("inputNumber").value;
+            if (name !== "") {
+                pb.delete1(name);
+                reset();
+                document.getElementById("phonebook").innerHTML = pb.show();
+                document.getElementById("msg").innerHTML = "Đã xóa SĐT khỏi danh bạ"
+            }
+            else if (phone !== "") {
+                pb.delete2(phone);
+                reset();
+                document.getElementById("phonebook").innerHTML = pb.show();
+                document.getElementById("msg").innerHTML = "Đã xóa SĐT khỏi danh bạ"
+            }
+            else {
+                document.getElementById("msg").innerHTML = "Tên hoặc SĐT bị thiếu"
+            }
+        }
+        function reset() {
+            document.getElementById("inputName").value = "";
+            document.getElementById("inputNumber").value = "";
+        }
+    </script>
+</body>
+
+</html>

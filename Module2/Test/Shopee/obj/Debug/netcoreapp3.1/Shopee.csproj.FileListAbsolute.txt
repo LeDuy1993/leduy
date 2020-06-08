@@ -1,0 +1,13 @@
+E:\codegym\Module2\Test\Shopee\bin\Debug\netcoreapp3.1\Shopee.exe
+E:\codegym\Module2\Test\Shopee\bin\Debug\netcoreapp3.1\Shopee.deps.json
+E:\codegym\Module2\Test\Shopee\bin\Debug\netcoreapp3.1\Shopee.runtimeconfig.json
+E:\codegym\Module2\Test\Shopee\bin\Debug\netcoreapp3.1\Shopee.runtimeconfig.dev.json
+E:\codegym\Module2\Test\Shopee\bin\Debug\netcoreapp3.1\Shopee.dll
+E:\codegym\Module2\Test\Shopee\bin\Debug\netcoreapp3.1\Shopee.pdb
+E:\codegym\Module2\Test\Shopee\obj\Debug\netcoreapp3.1\Shopee.csprojAssemblyReference.cache
+E:\codegym\Module2\Test\Shopee\obj\Debug\netcoreapp3.1\Shopee.csproj.CoreCompileInputs.cache
+E:\codegym\Module2\Test\Shopee\obj\Debug\netcoreapp3.1\Shopee.AssemblyInfoInputs.cache
+E:\codegym\Module2\Test\Shopee\obj\Debug\netcoreapp3.1\Shopee.AssemblyInfo.cs
+E:\codegym\Module2\Test\Shopee\obj\Debug\netcoreapp3.1\Shopee.dll
+E:\codegym\Module2\Test\Shopee\obj\Debug\netcoreapp3.1\Shopee.pdb
+E:\codegym\Module2\Test\Shopee\obj\Debug\netcoreapp3.1\Shopee.genruntimeconfig.cache

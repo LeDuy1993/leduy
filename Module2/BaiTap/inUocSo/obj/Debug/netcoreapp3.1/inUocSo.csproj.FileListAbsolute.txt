@@ -1,0 +1,12 @@
+C:\Users\HP\source\repos\BaiTap\inUocSo\bin\Debug\netcoreapp3.1\inUocSo.exe
+C:\Users\HP\source\repos\BaiTap\inUocSo\bin\Debug\netcoreapp3.1\inUocSo.deps.json
+C:\Users\HP\source\repos\BaiTap\inUocSo\bin\Debug\netcoreapp3.1\inUocSo.runtimeconfig.json
+C:\Users\HP\source\repos\BaiTap\inUocSo\bin\Debug\netcoreapp3.1\inUocSo.runtimeconfig.dev.json
+C:\Users\HP\source\repos\BaiTap\inUocSo\bin\Debug\netcoreapp3.1\inUocSo.dll
+C:\Users\HP\source\repos\BaiTap\inUocSo\bin\Debug\netcoreapp3.1\inUocSo.pdb
+C:\Users\HP\source\repos\BaiTap\inUocSo\obj\Debug\netcoreapp3.1\inUocSo.csproj.CoreCompileInputs.cache
+C:\Users\HP\source\repos\BaiTap\inUocSo\obj\Debug\netcoreapp3.1\inUocSo.AssemblyInfoInputs.cache
+C:\Users\HP\source\repos\BaiTap\inUocSo\obj\Debug\netcoreapp3.1\inUocSo.AssemblyInfo.cs
+C:\Users\HP\source\repos\BaiTap\inUocSo\obj\Debug\netcoreapp3.1\inUocSo.dll
+C:\Users\HP\source\repos\BaiTap\inUocSo\obj\Debug\netcoreapp3.1\inUocSo.pdb
+C:\Users\HP\source\repos\BaiTap\inUocSo\obj\Debug\netcoreapp3.1\inUocSo.genruntimeconfig.cache

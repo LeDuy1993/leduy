@@ -1,0 +1,12 @@
+E:\codegym\Module2\thuchanh1\laiXuat\bin\Debug\netcoreapp3.1\laiXuat.exe
+E:\codegym\Module2\thuchanh1\laiXuat\bin\Debug\netcoreapp3.1\laiXuat.deps.json
+E:\codegym\Module2\thuchanh1\laiXuat\bin\Debug\netcoreapp3.1\laiXuat.runtimeconfig.json
+E:\codegym\Module2\thuchanh1\laiXuat\bin\Debug\netcoreapp3.1\laiXuat.runtimeconfig.dev.json
+E:\codegym\Module2\thuchanh1\laiXuat\bin\Debug\netcoreapp3.1\laiXuat.dll
+E:\codegym\Module2\thuchanh1\laiXuat\bin\Debug\netcoreapp3.1\laiXuat.pdb
+E:\codegym\Module2\thuchanh1\laiXuat\obj\Debug\netcoreapp3.1\laiXuat.csproj.CoreCompileInputs.cache
+E:\codegym\Module2\thuchanh1\laiXuat\obj\Debug\netcoreapp3.1\laiXuat.AssemblyInfoInputs.cache
+E:\codegym\Module2\thuchanh1\laiXuat\obj\Debug\netcoreapp3.1\laiXuat.AssemblyInfo.cs
+E:\codegym\Module2\thuchanh1\laiXuat\obj\Debug\netcoreapp3.1\laiXuat.dll
+E:\codegym\Module2\thuchanh1\laiXuat\obj\Debug\netcoreapp3.1\laiXuat.pdb
+E:\codegym\Module2\thuchanh1\laiXuat\obj\Debug\netcoreapp3.1\laiXuat.genruntimeconfig.cache

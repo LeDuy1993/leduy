@@ -1,0 +1,13 @@
+E:\codegym\Module2\Arraylist\News\bin\Debug\netcoreapp3.1\MyNews.exe
+E:\codegym\Module2\Arraylist\News\bin\Debug\netcoreapp3.1\MyNews.deps.json
+E:\codegym\Module2\Arraylist\News\bin\Debug\netcoreapp3.1\MyNews.runtimeconfig.json
+E:\codegym\Module2\Arraylist\News\bin\Debug\netcoreapp3.1\MyNews.runtimeconfig.dev.json
+E:\codegym\Module2\Arraylist\News\bin\Debug\netcoreapp3.1\MyNews.dll
+E:\codegym\Module2\Arraylist\News\bin\Debug\netcoreapp3.1\MyNews.pdb
+E:\codegym\Module2\Arraylist\News\obj\Debug\netcoreapp3.1\MyNews.csprojAssemblyReference.cache
+E:\codegym\Module2\Arraylist\News\obj\Debug\netcoreapp3.1\MyNews.csproj.CoreCompileInputs.cache
+E:\codegym\Module2\Arraylist\News\obj\Debug\netcoreapp3.1\MyNews.AssemblyInfoInputs.cache
+E:\codegym\Module2\Arraylist\News\obj\Debug\netcoreapp3.1\MyNews.AssemblyInfo.cs
+E:\codegym\Module2\Arraylist\News\obj\Debug\netcoreapp3.1\MyNews.dll
+E:\codegym\Module2\Arraylist\News\obj\Debug\netcoreapp3.1\MyNews.pdb
+E:\codegym\Module2\Arraylist\News\obj\Debug\netcoreapp3.1\MyNews.genruntimeconfig.cache

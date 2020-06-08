@@ -1,0 +1,124 @@
+{
+  "students": [
+    {
+      "id": 3,
+      "fullName": "Ân Ngáo",
+      "gender": true,
+      "dob": "2010-03-12",
+      "courses": [
+        {
+          "name": "Toan",
+          "score": 9.3
+        },
+        {
+          "name": "Ly",
+          "score": 7.3
+        },
+        {
+          "name": "Hoa",
+          "score": 6.3
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "fullName": "Vũ Nhôm",
+      "gender": true,
+      "dob": "2010-03-12",
+      "courses": [
+        {
+          "name": "Toan",
+          "score": 5.3
+        },
+        {
+          "name": "Ly",
+          "score": 7.3
+        },
+        {
+          "name": "Hoa",
+          "score": 6.3
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "fullName": "Cường Euro",
+      "gender": false,
+      "dob": "2010-03-12",
+      "courses": [
+        {
+          "name": "Toan",
+          "score": 3.3
+        },
+        {
+          "name": "Ly",
+          "score": 7.3
+        },
+        {
+          "name": "Hoa",
+          "score": 6.3
+        }
+      ]
+    },
+    {
+      "fullName": "Duy $",
+      "gender": true,
+      "dob": "2000-03-07",
+      "id": 6,
+      "courses": [
+        {
+          "name": "Toan",
+          "score": 6.3
+        },
+        {
+          "name": "Ly",
+          "score": 7.3
+        },
+        {
+          "name": "Hoa",
+          "score": 6.3
+        }
+      ]
+    },
+    {
+      "fullName": "Ngân Nùn",
+      "gender": false,
+      "dob": "2004-03-12",
+      "id": 7,
+      "courses": [
+        {
+          "name": "Toan",
+          "score": 7.3
+        },
+        {
+          "name": "Ly",
+          "score": 7.3
+        },
+        {
+          "name": "Hoa",
+          "score": 6.3
+        }
+      ]
+    },
+    {
+      "fullName": "Hoàng Phan",
+      "gender": true,
+      "dob": "2007-03-07",
+      "id": 8,
+      "courses": [
+        {
+          "name": "Toan",
+          "score": 9.3
+        },
+        {
+          "name": "Ly",
+          "score": 7.3
+        },
+        {
+          "name": "Hoa",
+          "score": 6.3
+        }
+      ]
+    }
+  ]
+}

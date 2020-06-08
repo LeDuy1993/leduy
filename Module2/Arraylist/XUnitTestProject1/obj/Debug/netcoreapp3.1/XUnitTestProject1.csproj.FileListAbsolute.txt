@@ -1,0 +1,4 @@
+E:\codegym\Module2\Arraylist\XUnitTestProject1\obj\Debug\netcoreapp3.1\XUnitTestProject1.csprojAssemblyReference.cache
+E:\codegym\Module2\Arraylist\XUnitTestProject1\obj\Debug\netcoreapp3.1\XUnitTestProject1.csproj.CoreCompileInputs.cache
+E:\codegym\Module2\Arraylist\XUnitTestProject1\obj\Debug\netcoreapp3.1\XUnitTestProject1.AssemblyInfoInputs.cache
+E:\codegym\Module2\Arraylist\XUnitTestProject1\obj\Debug\netcoreapp3.1\XUnitTestProject1.AssemblyInfo.cs

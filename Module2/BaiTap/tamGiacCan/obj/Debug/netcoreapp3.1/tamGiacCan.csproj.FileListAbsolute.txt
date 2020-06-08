@@ -1,0 +1,13 @@
+E:\codegym\Module2\BaiTap\tamGiacCan\bin\Debug\netcoreapp3.1\tamGiacCan.exe
+E:\codegym\Module2\BaiTap\tamGiacCan\bin\Debug\netcoreapp3.1\tamGiacCan.deps.json
+E:\codegym\Module2\BaiTap\tamGiacCan\bin\Debug\netcoreapp3.1\tamGiacCan.runtimeconfig.json
+E:\codegym\Module2\BaiTap\tamGiacCan\bin\Debug\netcoreapp3.1\tamGiacCan.runtimeconfig.dev.json
+E:\codegym\Module2\BaiTap\tamGiacCan\bin\Debug\netcoreapp3.1\tamGiacCan.dll
+E:\codegym\Module2\BaiTap\tamGiacCan\bin\Debug\netcoreapp3.1\tamGiacCan.pdb
+E:\codegym\Module2\BaiTap\tamGiacCan\obj\Debug\netcoreapp3.1\tamGiacCan.csproj.CoreCompileInputs.cache
+E:\codegym\Module2\BaiTap\tamGiacCan\obj\Debug\netcoreapp3.1\tamGiacCan.AssemblyInfoInputs.cache
+E:\codegym\Module2\BaiTap\tamGiacCan\obj\Debug\netcoreapp3.1\tamGiacCan.AssemblyInfo.cs
+E:\codegym\Module2\BaiTap\tamGiacCan\obj\Debug\netcoreapp3.1\tamGiacCan.dll
+E:\codegym\Module2\BaiTap\tamGiacCan\obj\Debug\netcoreapp3.1\tamGiacCan.pdb
+E:\codegym\Module2\BaiTap\tamGiacCan\obj\Debug\netcoreapp3.1\tamGiacCan.genruntimeconfig.cache
+E:\codegym\Module2\BaiTap\tamGiacCan\obj\Debug\netcoreapp3.1\tamGiacCan.csprojAssemblyReference.cache

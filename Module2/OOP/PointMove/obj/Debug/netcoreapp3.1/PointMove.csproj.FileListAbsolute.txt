@@ -1,0 +1,13 @@
+E:\codegym\Module2\OOP\PointMove\bin\Debug\netcoreapp3.1\PointMove.exe
+E:\codegym\Module2\OOP\PointMove\bin\Debug\netcoreapp3.1\PointMove.deps.json
+E:\codegym\Module2\OOP\PointMove\bin\Debug\netcoreapp3.1\PointMove.runtimeconfig.json
+E:\codegym\Module2\OOP\PointMove\bin\Debug\netcoreapp3.1\PointMove.runtimeconfig.dev.json
+E:\codegym\Module2\OOP\PointMove\bin\Debug\netcoreapp3.1\PointMove.dll
+E:\codegym\Module2\OOP\PointMove\bin\Debug\netcoreapp3.1\PointMove.pdb
+E:\codegym\Module2\OOP\PointMove\obj\Debug\netcoreapp3.1\PointMove.csprojAssemblyReference.cache
+E:\codegym\Module2\OOP\PointMove\obj\Debug\netcoreapp3.1\PointMove.csproj.CoreCompileInputs.cache
+E:\codegym\Module2\OOP\PointMove\obj\Debug\netcoreapp3.1\PointMove.AssemblyInfoInputs.cache
+E:\codegym\Module2\OOP\PointMove\obj\Debug\netcoreapp3.1\PointMove.AssemblyInfo.cs
+E:\codegym\Module2\OOP\PointMove\obj\Debug\netcoreapp3.1\PointMove.dll
+E:\codegym\Module2\OOP\PointMove\obj\Debug\netcoreapp3.1\PointMove.pdb
+E:\codegym\Module2\OOP\PointMove\obj\Debug\netcoreapp3.1\PointMove.genruntimeconfig.cache

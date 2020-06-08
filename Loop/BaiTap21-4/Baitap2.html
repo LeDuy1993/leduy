@@ -1,0 +1,140 @@
+<html>
+
+<head>
+    <style>
+        table {
+            border-collapse: collapse;
+        }
+
+        table,
+        th,
+        td {
+
+            border: 1px solid black;
+            padding: 2px;
+        }
+
+        div {
+            border: 1px solid teal;
+            border-radius: 10px;
+            height: 600px;
+            width: 40%;
+            padding: 20px;
+
+        }
+    </style>
+</head>
+
+<body>
+
+
+    <div>
+
+        <form>
+            <label>
+
+                Bài tập 2:
+                Viết chương trình cho phép tạo ra 2 ma trận vuông kích cỡ n x n gồm các số nguyên được sinh ngầu nhiên
+                từ 10 đến 40
+                Yêu cầu: <br>
+                1. Tính và hiển thị ma trận tổng của 2 ma trận trên <br>
+                2. Tính và hiển thị ma trận tích của 2 ma trận trên</label>
+
+            <p>Nhập Number <input id="row" type="number" placeholder="RowNumber" oninput="main()"></p>
+
+
+            <table>
+                <tr>
+                    <td>Array1</td>
+                    <td>Array2</td>
+                </tr>
+                <tr>
+                    <td id="array1"></td>
+                    <td id="array2"></td>
+                </tr>
+                <tr>
+                    <td>Tổng của 2 ma trận</td>
+                    <td>Tích của 2 ma trận</td>
+                </tr>
+                <tr>
+                    <td id="array3"></td>
+                    <td id="array4"></td>
+                </tr>
+            </table>
+        </form>
+    </div>
+    <script>
+        function inputNumber() {
+            return document.getElementById("row").value;
+        }
+        function taoMang(number) {
+            let array = [];
+            for (let i = 0; i < number; i++) {
+                array[i] = [];
+                for (let j = 0; j < number; j++) {
+                    array[i][j] = Math.floor(Math.random() * 30 + 10);
+                }
+            }
+            return array;
+        }
+        function printArray(array, number) {
+            let show = "<table>";
+            for (let i = 0; i < number; i++) {
+                show += "<tr>";
+                for (let j = 0; j < number; j++) {
+                    show += "<td>" + array[i][j] + "</td>";
+                }
+                show += "</tr>";
+            }
+            show += "</table>";
+            return show;
+        }
+        function sumArray(array1, array2, number) {
+            let array = [];
+            for (let i = 0; i < number; i++) {
+                array[i] = [];
+                for (let j = 0; j < number; j++) {
+                    array[i][j] = array1[i][j] + array2[i][j];
+                }
+            }
+            return array;
+        }
+        function productArray(array1, array2, number) {
+            let array = [];
+            for (let i = 0; i < number; i++) {
+                array[i] = [];
+                for (let j = 0; j < number; j++) {
+                    array[i][j] = array1[i][j]* array2[i][j];
+                }
+            }
+            return array;
+        } 
+     
+        function main() {
+            let number = inputNumber();
+
+            let array = taoMang(number);
+            let matrix = printArray(array, number);
+            document.getElementById("array1").innerHTML = matrix;
+            // Mảng 2
+            let array2 = taoMang(number);
+            let matrix2 = printArray(array2, number);
+            document.getElementById("array2").innerHTML = matrix2;
+            //Tổng 2 mảng
+            let sumArray1 = sumArray(array, array2, number);
+            let matrix3 = printArray(sumArray1, number);
+            document.getElementById("array3").innerHTML = matrix3;
+            //Tích 2 mảng
+            let productArray1 = productArray(array, array2, number);
+            let matrix4 = printArray(productArray1, number);
+            document.getElementById("array4").innerHTML = matrix4;
+
+
+
+        }
+        main();
+    </script>
+
+</body>
+
+</html>

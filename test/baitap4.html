@@ -1,0 +1,31 @@
+<html>
+
+<head>
+
+</head>
+
+<body>
+    <canvas id="duyCanvas" width="300px" height="150px" style="border: 2px solid red;"></canvas>
+</body>
+<script>
+    class Rectangle {
+        constructor(x, y, height, width, color) {
+            this.x = x;
+            this.y = y;
+            this.height = height;
+            this.width = width;
+            this.color = color;
+        }
+        render() {
+            let ctx = document.getElementById('duyCanvas').getContext('2d');
+            ctx.fillStyle = this.color;
+            ctx.fillRect(this.x, this.y, this.width, this.height, this.color);
+        }
+    }
+    let hinhChuNhat = new Rectangle(10, 10, 100, 200, '#000000');
+    hinhChuNhat.render();
+</script>
+
+</html>
+
+</html>

@@ -1,0 +1,13 @@
+E:\codegym\Module2\Mang\MaxArray\bin\Debug\netcoreapp3.1\MaxArray.exe
+E:\codegym\Module2\Mang\MaxArray\bin\Debug\netcoreapp3.1\MaxArray.deps.json
+E:\codegym\Module2\Mang\MaxArray\bin\Debug\netcoreapp3.1\MaxArray.runtimeconfig.json
+E:\codegym\Module2\Mang\MaxArray\bin\Debug\netcoreapp3.1\MaxArray.runtimeconfig.dev.json
+E:\codegym\Module2\Mang\MaxArray\bin\Debug\netcoreapp3.1\MaxArray.dll
+E:\codegym\Module2\Mang\MaxArray\bin\Debug\netcoreapp3.1\MaxArray.pdb
+E:\codegym\Module2\Mang\MaxArray\obj\Debug\netcoreapp3.1\MaxArray.csprojAssemblyReference.cache
+E:\codegym\Module2\Mang\MaxArray\obj\Debug\netcoreapp3.1\MaxArray.csproj.CoreCompileInputs.cache
+E:\codegym\Module2\Mang\MaxArray\obj\Debug\netcoreapp3.1\MaxArray.AssemblyInfoInputs.cache
+E:\codegym\Module2\Mang\MaxArray\obj\Debug\netcoreapp3.1\MaxArray.AssemblyInfo.cs
+E:\codegym\Module2\Mang\MaxArray\obj\Debug\netcoreapp3.1\MaxArray.dll
+E:\codegym\Module2\Mang\MaxArray\obj\Debug\netcoreapp3.1\MaxArray.pdb
+E:\codegym\Module2\Mang\MaxArray\obj\Debug\netcoreapp3.1\MaxArray.genruntimeconfig.cache

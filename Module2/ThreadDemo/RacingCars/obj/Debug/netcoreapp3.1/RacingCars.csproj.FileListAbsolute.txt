@@ -1,0 +1,13 @@
+E:\codegym\Module2\ThreadDemo\RacingCars\bin\Debug\netcoreapp3.1\RacingCars.exe
+E:\codegym\Module2\ThreadDemo\RacingCars\bin\Debug\netcoreapp3.1\RacingCars.deps.json
+E:\codegym\Module2\ThreadDemo\RacingCars\bin\Debug\netcoreapp3.1\RacingCars.runtimeconfig.json
+E:\codegym\Module2\ThreadDemo\RacingCars\bin\Debug\netcoreapp3.1\RacingCars.runtimeconfig.dev.json
+E:\codegym\Module2\ThreadDemo\RacingCars\bin\Debug\netcoreapp3.1\RacingCars.dll
+E:\codegym\Module2\ThreadDemo\RacingCars\bin\Debug\netcoreapp3.1\RacingCars.pdb
+E:\codegym\Module2\ThreadDemo\RacingCars\obj\Debug\netcoreapp3.1\RacingCars.csprojAssemblyReference.cache
+E:\codegym\Module2\ThreadDemo\RacingCars\obj\Debug\netcoreapp3.1\RacingCars.csproj.CoreCompileInputs.cache
+E:\codegym\Module2\ThreadDemo\RacingCars\obj\Debug\netcoreapp3.1\RacingCars.AssemblyInfoInputs.cache
+E:\codegym\Module2\ThreadDemo\RacingCars\obj\Debug\netcoreapp3.1\RacingCars.AssemblyInfo.cs
+E:\codegym\Module2\ThreadDemo\RacingCars\obj\Debug\netcoreapp3.1\RacingCars.dll
+E:\codegym\Module2\ThreadDemo\RacingCars\obj\Debug\netcoreapp3.1\RacingCars.pdb
+E:\codegym\Module2\ThreadDemo\RacingCars\obj\Debug\netcoreapp3.1\RacingCars.genruntimeconfig.cache

@@ -1,0 +1,15 @@
+E:\codegym\Module2\Test\Coffee\bin\Debug\netcoreapp3.1\Coffee.exe
+E:\codegym\Module2\Test\Coffee\bin\Debug\netcoreapp3.1\Coffee.deps.json
+E:\codegym\Module2\Test\Coffee\bin\Debug\netcoreapp3.1\Coffee.runtimeconfig.json
+E:\codegym\Module2\Test\Coffee\bin\Debug\netcoreapp3.1\Coffee.runtimeconfig.dev.json
+E:\codegym\Module2\Test\Coffee\bin\Debug\netcoreapp3.1\Coffee.dll
+E:\codegym\Module2\Test\Coffee\bin\Debug\netcoreapp3.1\Coffee.pdb
+E:\codegym\Module2\Test\Coffee\obj\Debug\netcoreapp3.1\Coffee.csprojAssemblyReference.cache
+E:\codegym\Module2\Test\Coffee\obj\Debug\netcoreapp3.1\Coffee.AssemblyInfoInputs.cache
+E:\codegym\Module2\Test\Coffee\obj\Debug\netcoreapp3.1\Coffee.AssemblyInfo.cs
+E:\codegym\Module2\Test\Coffee\obj\Debug\netcoreapp3.1\Coffee.dll
+E:\codegym\Module2\Test\Coffee\obj\Debug\netcoreapp3.1\Coffee.pdb
+E:\codegym\Module2\Test\Coffee\obj\Debug\netcoreapp3.1\Coffee.genruntimeconfig.cache
+E:\codegym\Module2\Test\Coffee\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll
+E:\codegym\Module2\Test\Coffee\obj\Debug\netcoreapp3.1\Coffee.csproj.CoreCompileInputs.cache
+E:\codegym\Module2\Test\Coffee\obj\Debug\netcoreapp3.1\Coffee.csproj.CopyComplete

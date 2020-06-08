@@ -1,0 +1,15 @@
+E:\codegym\Module2\MenuArray\Shop\bin\Debug\netcoreapp3.1\Shop.exe
+E:\codegym\Module2\MenuArray\Shop\obj\Debug\netcoreapp3.1\Shop.csprojAssemblyReference.cache
+E:\codegym\Module2\MenuArray\Shop\obj\Debug\netcoreapp3.1\Shop.AssemblyInfoInputs.cache
+E:\codegym\Module2\MenuArray\Shop\obj\Debug\netcoreapp3.1\Shop.AssemblyInfo.cs
+E:\codegym\Module2\MenuArray\Shop\bin\Debug\netcoreapp3.1\Shop.deps.json
+E:\codegym\Module2\MenuArray\Shop\bin\Debug\netcoreapp3.1\Shop.runtimeconfig.json
+E:\codegym\Module2\MenuArray\Shop\bin\Debug\netcoreapp3.1\Shop.runtimeconfig.dev.json
+E:\codegym\Module2\MenuArray\Shop\bin\Debug\netcoreapp3.1\Shop.dll
+E:\codegym\Module2\MenuArray\Shop\bin\Debug\netcoreapp3.1\Shop.pdb
+E:\codegym\Module2\MenuArray\Shop\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll
+E:\codegym\Module2\MenuArray\Shop\obj\Debug\netcoreapp3.1\Shop.csproj.CoreCompileInputs.cache
+E:\codegym\Module2\MenuArray\Shop\obj\Debug\netcoreapp3.1\Shop.csproj.CopyComplete
+E:\codegym\Module2\MenuArray\Shop\obj\Debug\netcoreapp3.1\Shop.dll
+E:\codegym\Module2\MenuArray\Shop\obj\Debug\netcoreapp3.1\Shop.pdb
+E:\codegym\Module2\MenuArray\Shop\obj\Debug\netcoreapp3.1\Shop.genruntimeconfig.cache

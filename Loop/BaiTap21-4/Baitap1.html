@@ -1,0 +1,187 @@
+<html>
+
+<head>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+    <style>
+        table {
+            border-collapse: collapse;
+        }
+
+        table,
+        th,
+        td {
+            
+            border: 1px solid black;
+            padding: 2px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <h4>Bài tập 1</h4>
+        <p>
+            Viết chương trình cho phép tạo ra một ma trận 2 chiều (vuông) có kích cỡ n x n được nhập vào từ bàn
+            phím, gồm các giá trị số nguyên được sinh ngẫu nhiên từ 10 đến 90. <br>
+            Yêu cầu:<br>
+            <p> 1. Tính tổng các số chẵn trong ma trận <span id="sumEven"></span></p>
+            <p> 2. Tính tổng các giá trị trên đường chéo chính <span id="sumDiagona1"></span></p>
+            <p> 3. Tính tổng các giá trị trên đường chéo phụ<span id="sumDiagona2"></span></p>
+            <p> 4. Tính tổng các giá trị trên đường biên <span id="sumcheo"></span> </p>
+            <p> 5. Hiển thị ma trận</p>
+            <p> 6. Hiển trị ma trận tam giác dưới</p>
+            <p> 7. Hiển thị ma trân tam giác trên</p>
+            <table>
+                <tr>
+                    <td>Nhập số dòng</td>
+                    <td><input id="row" type="number" placeholder="RowNumber" oninput="main()"></td>
+                </tr>
+            </table>
+            <h4>Print Array</h4>
+            <div id="div1" class="container">
+            </div>
+            <div id="div2" class="container">
+            </div>
+            <div id="div3" class="container">
+            </div>
+
+
+    </div>
+
+    <script>
+
+        function taoMang(row, col) {
+            let array = [];
+            for (let i = 0; i < row; i++) {
+                array[i] = [];
+                for (let j = 0; j < col; j++) {
+                    array[i][j] = Math.floor(Math.random() * 80 + 10);
+                }
+            }
+            return array;
+        }
+        function printArray(array, row, col) {
+            let show = "<table>";
+            for (let i = 0; i < row; i++) {
+                show += "<tr>";
+                for (let j = 0; j < col; j++) {
+                    show += "<td>" + array[i][j] + "</td>";
+                }
+                show += "</tr>";
+            }
+            show += "</table>";
+            return show;
+        }
+        function printTriangle1(array, row, col) {
+            let show = "<table>";
+            for (let i = 0; i < row; i++) {
+                show += "<tr>";
+                for (let j = 0; j < col - i; j++) {
+                    show += "<td>" + array[i][j] + "</td>";
+                }
+                show += "</tr>";
+            }
+            show += "</table>";
+            return show;
+        }
+        function printTriangle2(array, row, col) {
+            let show = "<table>";
+            for (let i = 0; i < row; i++) {
+                show += "<tr>";
+                for (let j = 0; j < col-1 - i; j++) {
+                    show += "<td>" + '' + "</td>";
+                }
+                for (let j = col - 1 - i; j < col; j++) {
+                    show += "<td>" + array[i][j] + "</td>";
+                }
+                show += "</tr>";
+            }
+            show += "</table>";
+            return show;
+        }
+
+        function sumEven(array, row, col) {
+            let sum = 0;
+            for (let i = 0; i < row; i++) {
+                for (let j = 0; j < col; j++) {
+                    if (array[i][j] % 2 === 0) {
+                        sum += array[i][j];
+                    }
+                }
+            }
+            return sum;
+        }
+        function sumDiagonalLine1(array, row, col) {
+            let sum = 0;
+            for (let i = 0; i < row; i++) {
+                sum += array[i][row - 1 - i];
+            }
+            return sum;
+        }
+        function sumDiagonalLine2(array, row, col) {
+            let sum = 0;
+            for (let i = 0; i < row; i++) {
+                sum += array[i][i];
+            }
+            return sum;
+        }
+        function sumTop(array, row, col) {
+            let sum = 0;
+            for (let i = 0; i < row; i++) {
+                sum += array[0][i];
+            }
+            return sum;
+        }
+        function sumRight(array, row, col) {
+            let sum = 0;
+            for (let i = 0; i < row; i++) {
+                sum += array[i][col - 1];
+            }
+            return sum;
+        }
+        function sumLeft(array, row, col) {
+            let sum = 0;
+            for (let i = 0; i < col; i++) {
+                sum += array[i][0];
+            }
+            return sum;
+        }
+        function sumBottom(array, row, col) {
+            let sum = 0;
+            for (let i = 0; i < row; i++) {
+                sum += array[col - 1][i];
+            }
+            return sum;
+        }
+        function nhapNumber() {
+            return document.getElementById("row").value;
+        }
+
+
+        function main() {
+            let row = nhapNumber();
+            let column = nhapNumber();
+            let array = taoMang(row, column);
+            let matrix = printArray(array, row, column);
+            let matrix1 = printTriangle1(array, row, column);
+            let matrix2 = printTriangle2(array, row, column);
+            let sum = sumEven(array, row, column);
+            let sumDiagona1 = sumDiagonalLine1(array, row, column);
+            let sumDiagona2 = sumDiagonalLine2(array, row, column);
+            let sumB = sumBottom(array, row, column);
+            let sumT = sumTop(array, row, column);
+            let sumL = sumLeft(array, row, column);
+            let sumR = sumRight(array, row, column);
+            document.getElementById("div1").innerHTML = matrix + "<br>";
+            document.getElementById("div2").innerHTML = matrix1 + "<br>";
+            document.getElementById("div3").innerHTML = matrix2;
+            document.getElementById("sumEven").innerHTML = sum;
+            document.getElementById("sumDiagona1").innerHTML = sumDiagona1;
+            document.getElementById("sumDiagona2").innerHTML = sumDiagona2;
+            document.getElementById("sumcheo").innerHTML = "Top:" + sumT + "-" + "Bot:" + sumB + "-" + "Right:" + sumR + "-" + "Left:" + sumL;
+        }
+        main();
+    </script>
+</body>
+
+</html>

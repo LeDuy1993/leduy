@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "HhQVQlLQy02a6RS947ZGAq9ND9s3B8ssLXeaEpztGWsNExEjTMfoxwkM9nD7dL4IJXytmcDfJeFLHmsTm2UBog==",
+  "success": true,
+  "projectFilePath": "E:\\codegym\\Module2\\MenuArray\\Shop\\Shop.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\HP\\.nuget\\packages\\newtonsoft.json\\12.0.3\\newtonsoft.json.12.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}

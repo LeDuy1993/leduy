@@ -1,0 +1,13 @@
+E:\codegym\Module2\Mang\Chuoi\bin\Debug\netcoreapp3.1\Chuoi.exe
+E:\codegym\Module2\Mang\Chuoi\bin\Debug\netcoreapp3.1\Chuoi.deps.json
+E:\codegym\Module2\Mang\Chuoi\bin\Debug\netcoreapp3.1\Chuoi.runtimeconfig.json
+E:\codegym\Module2\Mang\Chuoi\bin\Debug\netcoreapp3.1\Chuoi.runtimeconfig.dev.json
+E:\codegym\Module2\Mang\Chuoi\bin\Debug\netcoreapp3.1\Chuoi.dll
+E:\codegym\Module2\Mang\Chuoi\bin\Debug\netcoreapp3.1\Chuoi.pdb
+E:\codegym\Module2\Mang\Chuoi\obj\Debug\netcoreapp3.1\Chuoi.csprojAssemblyReference.cache
+E:\codegym\Module2\Mang\Chuoi\obj\Debug\netcoreapp3.1\Chuoi.csproj.CoreCompileInputs.cache
+E:\codegym\Module2\Mang\Chuoi\obj\Debug\netcoreapp3.1\Chuoi.AssemblyInfoInputs.cache
+E:\codegym\Module2\Mang\Chuoi\obj\Debug\netcoreapp3.1\Chuoi.AssemblyInfo.cs
+E:\codegym\Module2\Mang\Chuoi\obj\Debug\netcoreapp3.1\Chuoi.dll
+E:\codegym\Module2\Mang\Chuoi\obj\Debug\netcoreapp3.1\Chuoi.pdb
+E:\codegym\Module2\Mang\Chuoi\obj\Debug\netcoreapp3.1\Chuoi.genruntimeconfig.cache

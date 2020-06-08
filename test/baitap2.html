@@ -1,0 +1,26 @@
+<html>
+
+<head></head>
+
+<body>
+    <script>
+        function tryRemoveFromArray(arr, index) {
+            if (index >= 0 && index < arr.length) {
+                for (let i = index; i < arr.length - 1; i++) {
+                    let a = arr[i + 1];
+                    arr[i + 1] = arr[i];
+                    arr[i] = a;
+                }
+                arr.pop(index)
+            }
+            return arr;
+        }
+        let array = [1, 2, 3, 4, 5, 6];
+        console.log("Mảng nhận vào : " + array)
+        let index = 0;
+        let newArray = tryRemoveFromArray(array, index);
+        console.log("Mảng trả về sau khi xóa phần tử tại vi trí " + index + " là : " + newArray);
+    </script>
+</body>
+
+</html>

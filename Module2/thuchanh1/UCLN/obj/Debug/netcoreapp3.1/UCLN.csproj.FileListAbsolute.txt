@@ -1,0 +1,12 @@
+E:\codegym\Module2\thuchanh1\UCLN\bin\Debug\netcoreapp3.1\UCLN.exe
+E:\codegym\Module2\thuchanh1\UCLN\bin\Debug\netcoreapp3.1\UCLN.deps.json
+E:\codegym\Module2\thuchanh1\UCLN\bin\Debug\netcoreapp3.1\UCLN.runtimeconfig.json
+E:\codegym\Module2\thuchanh1\UCLN\bin\Debug\netcoreapp3.1\UCLN.runtimeconfig.dev.json
+E:\codegym\Module2\thuchanh1\UCLN\bin\Debug\netcoreapp3.1\UCLN.dll
+E:\codegym\Module2\thuchanh1\UCLN\bin\Debug\netcoreapp3.1\UCLN.pdb
+E:\codegym\Module2\thuchanh1\UCLN\obj\Debug\netcoreapp3.1\UCLN.csproj.CoreCompileInputs.cache
+E:\codegym\Module2\thuchanh1\UCLN\obj\Debug\netcoreapp3.1\UCLN.AssemblyInfoInputs.cache
+E:\codegym\Module2\thuchanh1\UCLN\obj\Debug\netcoreapp3.1\UCLN.AssemblyInfo.cs
+E:\codegym\Module2\thuchanh1\UCLN\obj\Debug\netcoreapp3.1\UCLN.dll
+E:\codegym\Module2\thuchanh1\UCLN\obj\Debug\netcoreapp3.1\UCLN.pdb
+E:\codegym\Module2\thuchanh1\UCLN\obj\Debug\netcoreapp3.1\UCLN.genruntimeconfig.cache

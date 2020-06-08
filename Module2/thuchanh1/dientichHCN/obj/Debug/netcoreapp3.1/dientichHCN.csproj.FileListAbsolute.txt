@@ -1,0 +1,13 @@
+E:\codegym\Module2\thuchanh1\dientichHCN\bin\Debug\netcoreapp3.1\dientichHCN.exe
+E:\codegym\Module2\thuchanh1\dientichHCN\bin\Debug\netcoreapp3.1\dientichHCN.deps.json
+E:\codegym\Module2\thuchanh1\dientichHCN\bin\Debug\netcoreapp3.1\dientichHCN.runtimeconfig.json
+E:\codegym\Module2\thuchanh1\dientichHCN\bin\Debug\netcoreapp3.1\dientichHCN.runtimeconfig.dev.json
+E:\codegym\Module2\thuchanh1\dientichHCN\bin\Debug\netcoreapp3.1\dientichHCN.dll
+E:\codegym\Module2\thuchanh1\dientichHCN\bin\Debug\netcoreapp3.1\dientichHCN.pdb
+E:\codegym\Module2\thuchanh1\dientichHCN\obj\Debug\netcoreapp3.1\dientichHCN.csprojAssemblyReference.cache
+E:\codegym\Module2\thuchanh1\dientichHCN\obj\Debug\netcoreapp3.1\dientichHCN.csproj.CoreCompileInputs.cache
+E:\codegym\Module2\thuchanh1\dientichHCN\obj\Debug\netcoreapp3.1\dientichHCN.AssemblyInfoInputs.cache
+E:\codegym\Module2\thuchanh1\dientichHCN\obj\Debug\netcoreapp3.1\dientichHCN.AssemblyInfo.cs
+E:\codegym\Module2\thuchanh1\dientichHCN\obj\Debug\netcoreapp3.1\dientichHCN.dll
+E:\codegym\Module2\thuchanh1\dientichHCN\obj\Debug\netcoreapp3.1\dientichHCN.pdb
+E:\codegym\Module2\thuchanh1\dientichHCN\obj\Debug\netcoreapp3.1\dientichHCN.genruntimeconfig.cache

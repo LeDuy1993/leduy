@@ -1,0 +1,13 @@
+E:\codegym\Module2\text\text\bin\Debug\netcoreapp3.1\text.exe
+E:\codegym\Module2\text\text\bin\Debug\netcoreapp3.1\text.deps.json
+E:\codegym\Module2\text\text\bin\Debug\netcoreapp3.1\text.runtimeconfig.json
+E:\codegym\Module2\text\text\bin\Debug\netcoreapp3.1\text.runtimeconfig.dev.json
+E:\codegym\Module2\text\text\bin\Debug\netcoreapp3.1\text.dll
+E:\codegym\Module2\text\text\bin\Debug\netcoreapp3.1\text.pdb
+E:\codegym\Module2\text\text\obj\Debug\netcoreapp3.1\text.csprojAssemblyReference.cache
+E:\codegym\Module2\text\text\obj\Debug\netcoreapp3.1\text.csproj.CoreCompileInputs.cache
+E:\codegym\Module2\text\text\obj\Debug\netcoreapp3.1\text.AssemblyInfoInputs.cache
+E:\codegym\Module2\text\text\obj\Debug\netcoreapp3.1\text.AssemblyInfo.cs
+E:\codegym\Module2\text\text\obj\Debug\netcoreapp3.1\text.dll
+E:\codegym\Module2\text\text\obj\Debug\netcoreapp3.1\text.pdb
+E:\codegym\Module2\text\text\obj\Debug\netcoreapp3.1\text.genruntimeconfig.cache

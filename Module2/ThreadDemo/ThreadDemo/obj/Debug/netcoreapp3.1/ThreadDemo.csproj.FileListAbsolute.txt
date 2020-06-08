@@ -1,0 +1,13 @@
+E:\codegym\Module2\ThreadDemo\ThreadDemo\bin\Debug\netcoreapp3.1\ThreadDemo.exe
+E:\codegym\Module2\ThreadDemo\ThreadDemo\bin\Debug\netcoreapp3.1\ThreadDemo.deps.json
+E:\codegym\Module2\ThreadDemo\ThreadDemo\bin\Debug\netcoreapp3.1\ThreadDemo.runtimeconfig.json
+E:\codegym\Module2\ThreadDemo\ThreadDemo\bin\Debug\netcoreapp3.1\ThreadDemo.runtimeconfig.dev.json
+E:\codegym\Module2\ThreadDemo\ThreadDemo\bin\Debug\netcoreapp3.1\ThreadDemo.dll
+E:\codegym\Module2\ThreadDemo\ThreadDemo\bin\Debug\netcoreapp3.1\ThreadDemo.pdb
+E:\codegym\Module2\ThreadDemo\ThreadDemo\obj\Debug\netcoreapp3.1\ThreadDemo.csprojAssemblyReference.cache
+E:\codegym\Module2\ThreadDemo\ThreadDemo\obj\Debug\netcoreapp3.1\ThreadDemo.csproj.CoreCompileInputs.cache
+E:\codegym\Module2\ThreadDemo\ThreadDemo\obj\Debug\netcoreapp3.1\ThreadDemo.AssemblyInfoInputs.cache
+E:\codegym\Module2\ThreadDemo\ThreadDemo\obj\Debug\netcoreapp3.1\ThreadDemo.AssemblyInfo.cs
+E:\codegym\Module2\ThreadDemo\ThreadDemo\obj\Debug\netcoreapp3.1\ThreadDemo.dll
+E:\codegym\Module2\ThreadDemo\ThreadDemo\obj\Debug\netcoreapp3.1\ThreadDemo.pdb
+E:\codegym\Module2\ThreadDemo\ThreadDemo\obj\Debug\netcoreapp3.1\ThreadDemo.genruntimeconfig.cache

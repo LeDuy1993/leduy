@@ -1,0 +1,15 @@
+E:\codegym\Module2\JsonDemo\JsonDemo\bin\Debug\netcoreapp3.1\JsonDemo.exe
+E:\codegym\Module2\JsonDemo\JsonDemo\obj\Debug\netcoreapp3.1\JsonDemo.csprojAssemblyReference.cache
+E:\codegym\Module2\JsonDemo\JsonDemo\obj\Debug\netcoreapp3.1\JsonDemo.AssemblyInfoInputs.cache
+E:\codegym\Module2\JsonDemo\JsonDemo\obj\Debug\netcoreapp3.1\JsonDemo.AssemblyInfo.cs
+E:\codegym\Module2\JsonDemo\JsonDemo\bin\Debug\netcoreapp3.1\JsonDemo.deps.json
+E:\codegym\Module2\JsonDemo\JsonDemo\bin\Debug\netcoreapp3.1\JsonDemo.runtimeconfig.json
+E:\codegym\Module2\JsonDemo\JsonDemo\bin\Debug\netcoreapp3.1\JsonDemo.runtimeconfig.dev.json
+E:\codegym\Module2\JsonDemo\JsonDemo\bin\Debug\netcoreapp3.1\JsonDemo.dll
+E:\codegym\Module2\JsonDemo\JsonDemo\bin\Debug\netcoreapp3.1\JsonDemo.pdb
+E:\codegym\Module2\JsonDemo\JsonDemo\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll
+E:\codegym\Module2\JsonDemo\JsonDemo\obj\Debug\netcoreapp3.1\JsonDemo.csproj.CoreCompileInputs.cache
+E:\codegym\Module2\JsonDemo\JsonDemo\obj\Debug\netcoreapp3.1\JsonDemo.csproj.CopyComplete
+E:\codegym\Module2\JsonDemo\JsonDemo\obj\Debug\netcoreapp3.1\JsonDemo.dll
+E:\codegym\Module2\JsonDemo\JsonDemo\obj\Debug\netcoreapp3.1\JsonDemo.pdb
+E:\codegym\Module2\JsonDemo\JsonDemo\obj\Debug\netcoreapp3.1\JsonDemo.genruntimeconfig.cache

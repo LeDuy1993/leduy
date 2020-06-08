@@ -1,0 +1,13 @@
+E:\codegym\Module2\BaiTap\tongNgichDao\bin\Debug\netcoreapp3.1\tongNgichDao.exe
+E:\codegym\Module2\BaiTap\tongNgichDao\bin\Debug\netcoreapp3.1\tongNgichDao.deps.json
+E:\codegym\Module2\BaiTap\tongNgichDao\bin\Debug\netcoreapp3.1\tongNgichDao.runtimeconfig.json
+E:\codegym\Module2\BaiTap\tongNgichDao\bin\Debug\netcoreapp3.1\tongNgichDao.runtimeconfig.dev.json
+E:\codegym\Module2\BaiTap\tongNgichDao\bin\Debug\netcoreapp3.1\tongNgichDao.dll
+E:\codegym\Module2\BaiTap\tongNgichDao\bin\Debug\netcoreapp3.1\tongNgichDao.pdb
+E:\codegym\Module2\BaiTap\tongNgichDao\obj\Debug\netcoreapp3.1\tongNgichDao.csprojAssemblyReference.cache
+E:\codegym\Module2\BaiTap\tongNgichDao\obj\Debug\netcoreapp3.1\tongNgichDao.csproj.CoreCompileInputs.cache
+E:\codegym\Module2\BaiTap\tongNgichDao\obj\Debug\netcoreapp3.1\tongNgichDao.AssemblyInfoInputs.cache
+E:\codegym\Module2\BaiTap\tongNgichDao\obj\Debug\netcoreapp3.1\tongNgichDao.AssemblyInfo.cs
+E:\codegym\Module2\BaiTap\tongNgichDao\obj\Debug\netcoreapp3.1\tongNgichDao.dll
+E:\codegym\Module2\BaiTap\tongNgichDao\obj\Debug\netcoreapp3.1\tongNgichDao.pdb
+E:\codegym\Module2\BaiTap\tongNgichDao\obj\Debug\netcoreapp3.1\tongNgichDao.genruntimeconfig.cache

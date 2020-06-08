@@ -1,0 +1,13 @@
+E:\codegym\Module2\OOP\StudentStatic\bin\Debug\netcoreapp3.1\StudentStatic.exe
+E:\codegym\Module2\OOP\StudentStatic\bin\Debug\netcoreapp3.1\StudentStatic.deps.json
+E:\codegym\Module2\OOP\StudentStatic\bin\Debug\netcoreapp3.1\StudentStatic.runtimeconfig.json
+E:\codegym\Module2\OOP\StudentStatic\bin\Debug\netcoreapp3.1\StudentStatic.runtimeconfig.dev.json
+E:\codegym\Module2\OOP\StudentStatic\bin\Debug\netcoreapp3.1\StudentStatic.dll
+E:\codegym\Module2\OOP\StudentStatic\bin\Debug\netcoreapp3.1\StudentStatic.pdb
+E:\codegym\Module2\OOP\StudentStatic\obj\Debug\netcoreapp3.1\StudentStatic.csprojAssemblyReference.cache
+E:\codegym\Module2\OOP\StudentStatic\obj\Debug\netcoreapp3.1\StudentStatic.csproj.CoreCompileInputs.cache
+E:\codegym\Module2\OOP\StudentStatic\obj\Debug\netcoreapp3.1\StudentStatic.AssemblyInfoInputs.cache
+E:\codegym\Module2\OOP\StudentStatic\obj\Debug\netcoreapp3.1\StudentStatic.AssemblyInfo.cs
+E:\codegym\Module2\OOP\StudentStatic\obj\Debug\netcoreapp3.1\StudentStatic.dll
+E:\codegym\Module2\OOP\StudentStatic\obj\Debug\netcoreapp3.1\StudentStatic.pdb
+E:\codegym\Module2\OOP\StudentStatic\obj\Debug\netcoreapp3.1\StudentStatic.genruntimeconfig.cache

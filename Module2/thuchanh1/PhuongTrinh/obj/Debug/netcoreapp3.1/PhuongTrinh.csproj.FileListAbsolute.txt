@@ -1,0 +1,13 @@
+E:\codegym\Module2\thuchanh1\PhuongTrinh\bin\Debug\netcoreapp3.1\PhuongTrinh.exe
+E:\codegym\Module2\thuchanh1\PhuongTrinh\bin\Debug\netcoreapp3.1\PhuongTrinh.deps.json
+E:\codegym\Module2\thuchanh1\PhuongTrinh\bin\Debug\netcoreapp3.1\PhuongTrinh.runtimeconfig.json
+E:\codegym\Module2\thuchanh1\PhuongTrinh\bin\Debug\netcoreapp3.1\PhuongTrinh.runtimeconfig.dev.json
+E:\codegym\Module2\thuchanh1\PhuongTrinh\bin\Debug\netcoreapp3.1\PhuongTrinh.dll
+E:\codegym\Module2\thuchanh1\PhuongTrinh\bin\Debug\netcoreapp3.1\PhuongTrinh.pdb
+E:\codegym\Module2\thuchanh1\PhuongTrinh\obj\Debug\netcoreapp3.1\PhuongTrinh.csprojAssemblyReference.cache
+E:\codegym\Module2\thuchanh1\PhuongTrinh\obj\Debug\netcoreapp3.1\PhuongTrinh.csproj.CoreCompileInputs.cache
+E:\codegym\Module2\thuchanh1\PhuongTrinh\obj\Debug\netcoreapp3.1\PhuongTrinh.AssemblyInfoInputs.cache
+E:\codegym\Module2\thuchanh1\PhuongTrinh\obj\Debug\netcoreapp3.1\PhuongTrinh.AssemblyInfo.cs
+E:\codegym\Module2\thuchanh1\PhuongTrinh\obj\Debug\netcoreapp3.1\PhuongTrinh.dll
+E:\codegym\Module2\thuchanh1\PhuongTrinh\obj\Debug\netcoreapp3.1\PhuongTrinh.pdb
+E:\codegym\Module2\thuchanh1\PhuongTrinh\obj\Debug\netcoreapp3.1\PhuongTrinh.genruntimeconfig.cache

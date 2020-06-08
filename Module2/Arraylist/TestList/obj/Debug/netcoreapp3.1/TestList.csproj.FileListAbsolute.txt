@@ -1,0 +1,13 @@
+E:\codegym\Module2\Arraylist\TestList\bin\Debug\netcoreapp3.1\TestList.exe
+E:\codegym\Module2\Arraylist\TestList\bin\Debug\netcoreapp3.1\TestList.deps.json
+E:\codegym\Module2\Arraylist\TestList\bin\Debug\netcoreapp3.1\TestList.runtimeconfig.json
+E:\codegym\Module2\Arraylist\TestList\bin\Debug\netcoreapp3.1\TestList.runtimeconfig.dev.json
+E:\codegym\Module2\Arraylist\TestList\bin\Debug\netcoreapp3.1\TestList.dll
+E:\codegym\Module2\Arraylist\TestList\bin\Debug\netcoreapp3.1\TestList.pdb
+E:\codegym\Module2\Arraylist\TestList\obj\Debug\netcoreapp3.1\TestList.csprojAssemblyReference.cache
+E:\codegym\Module2\Arraylist\TestList\obj\Debug\netcoreapp3.1\TestList.csproj.CoreCompileInputs.cache
+E:\codegym\Module2\Arraylist\TestList\obj\Debug\netcoreapp3.1\TestList.AssemblyInfoInputs.cache
+E:\codegym\Module2\Arraylist\TestList\obj\Debug\netcoreapp3.1\TestList.AssemblyInfo.cs
+E:\codegym\Module2\Arraylist\TestList\obj\Debug\netcoreapp3.1\TestList.dll
+E:\codegym\Module2\Arraylist\TestList\obj\Debug\netcoreapp3.1\TestList.pdb
+E:\codegym\Module2\Arraylist\TestList\obj\Debug\netcoreapp3.1\TestList.genruntimeconfig.cache

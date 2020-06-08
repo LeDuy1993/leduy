@@ -1,0 +1,13 @@
+E:\codegym\Module2\OOP\kiemthu\bin\Debug\netcoreapp3.1\kiemthu.exe
+E:\codegym\Module2\OOP\kiemthu\bin\Debug\netcoreapp3.1\kiemthu.deps.json
+E:\codegym\Module2\OOP\kiemthu\bin\Debug\netcoreapp3.1\kiemthu.runtimeconfig.json
+E:\codegym\Module2\OOP\kiemthu\bin\Debug\netcoreapp3.1\kiemthu.runtimeconfig.dev.json
+E:\codegym\Module2\OOP\kiemthu\bin\Debug\netcoreapp3.1\kiemthu.dll
+E:\codegym\Module2\OOP\kiemthu\bin\Debug\netcoreapp3.1\kiemthu.pdb
+E:\codegym\Module2\OOP\kiemthu\obj\Debug\netcoreapp3.1\kiemthu.csprojAssemblyReference.cache
+E:\codegym\Module2\OOP\kiemthu\obj\Debug\netcoreapp3.1\kiemthu.csproj.CoreCompileInputs.cache
+E:\codegym\Module2\OOP\kiemthu\obj\Debug\netcoreapp3.1\kiemthu.AssemblyInfoInputs.cache
+E:\codegym\Module2\OOP\kiemthu\obj\Debug\netcoreapp3.1\kiemthu.AssemblyInfo.cs
+E:\codegym\Module2\OOP\kiemthu\obj\Debug\netcoreapp3.1\kiemthu.dll
+E:\codegym\Module2\OOP\kiemthu\obj\Debug\netcoreapp3.1\kiemthu.pdb
+E:\codegym\Module2\OOP\kiemthu\obj\Debug\netcoreapp3.1\kiemthu.genruntimeconfig.cache

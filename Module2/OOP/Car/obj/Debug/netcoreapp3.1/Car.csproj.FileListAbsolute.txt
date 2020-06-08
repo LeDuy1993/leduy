@@ -1,0 +1,13 @@
+E:\codegym\Module2\OOP\Car\bin\Debug\netcoreapp3.1\Car.exe
+E:\codegym\Module2\OOP\Car\bin\Debug\netcoreapp3.1\Car.deps.json
+E:\codegym\Module2\OOP\Car\bin\Debug\netcoreapp3.1\Car.runtimeconfig.json
+E:\codegym\Module2\OOP\Car\bin\Debug\netcoreapp3.1\Car.runtimeconfig.dev.json
+E:\codegym\Module2\OOP\Car\bin\Debug\netcoreapp3.1\Car.dll
+E:\codegym\Module2\OOP\Car\bin\Debug\netcoreapp3.1\Car.pdb
+E:\codegym\Module2\OOP\Car\obj\Debug\netcoreapp3.1\Car.csproj.CoreCompileInputs.cache
+E:\codegym\Module2\OOP\Car\obj\Debug\netcoreapp3.1\Car.AssemblyInfoInputs.cache
+E:\codegym\Module2\OOP\Car\obj\Debug\netcoreapp3.1\Car.AssemblyInfo.cs
+E:\codegym\Module2\OOP\Car\obj\Debug\netcoreapp3.1\Car.dll
+E:\codegym\Module2\OOP\Car\obj\Debug\netcoreapp3.1\Car.pdb
+E:\codegym\Module2\OOP\Car\obj\Debug\netcoreapp3.1\Car.genruntimeconfig.cache
+E:\codegym\Module2\OOP\Car\obj\Debug\netcoreapp3.1\Car.csprojAssemblyReference.cache

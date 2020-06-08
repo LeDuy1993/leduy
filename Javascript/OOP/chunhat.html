@@ -16,17 +16,18 @@
                 this.y = y;
                 this.length = length;
                 this.width = width;
+                this.
             }
-            // getArea() {
-            //     return this.length * this.width;
-            // }
-            // getPerimeter() {
-            //     return (this.length + this.width) * 2;
-            // }
+            getArea() {
+                return this.length * this.width;
+            }
+            getPerimeter() {
+                return (this.length + this.width) * 2;
+            }
             showRectangle() {
                 let ctx = document.getElementById('myCanvas').getContext('2d');
-                // ctx.beginPath();
-                // ctx.fillStyle = '#ACFA58';
+                ctx.beginPath();
+                ctx.fillStyle = '#ACFA58';
                 ctx.fillRect(this.x, this.y, this.width, this.length);
             }
         }

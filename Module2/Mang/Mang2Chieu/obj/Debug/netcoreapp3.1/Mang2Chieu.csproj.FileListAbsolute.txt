@@ -1,0 +1,13 @@
+E:\codegym\Module2\Mang\Mang2Chieu\bin\Debug\netcoreapp3.1\Mang2Chieu.exe
+E:\codegym\Module2\Mang\Mang2Chieu\bin\Debug\netcoreapp3.1\Mang2Chieu.deps.json
+E:\codegym\Module2\Mang\Mang2Chieu\bin\Debug\netcoreapp3.1\Mang2Chieu.runtimeconfig.json
+E:\codegym\Module2\Mang\Mang2Chieu\bin\Debug\netcoreapp3.1\Mang2Chieu.runtimeconfig.dev.json
+E:\codegym\Module2\Mang\Mang2Chieu\bin\Debug\netcoreapp3.1\Mang2Chieu.dll
+E:\codegym\Module2\Mang\Mang2Chieu\bin\Debug\netcoreapp3.1\Mang2Chieu.pdb
+E:\codegym\Module2\Mang\Mang2Chieu\obj\Debug\netcoreapp3.1\Mang2Chieu.csproj.CoreCompileInputs.cache
+E:\codegym\Module2\Mang\Mang2Chieu\obj\Debug\netcoreapp3.1\Mang2Chieu.AssemblyInfoInputs.cache
+E:\codegym\Module2\Mang\Mang2Chieu\obj\Debug\netcoreapp3.1\Mang2Chieu.AssemblyInfo.cs
+E:\codegym\Module2\Mang\Mang2Chieu\obj\Debug\netcoreapp3.1\Mang2Chieu.dll
+E:\codegym\Module2\Mang\Mang2Chieu\obj\Debug\netcoreapp3.1\Mang2Chieu.pdb
+E:\codegym\Module2\Mang\Mang2Chieu\obj\Debug\netcoreapp3.1\Mang2Chieu.genruntimeconfig.cache
+E:\codegym\Module2\Mang\Mang2Chieu\obj\Debug\netcoreapp3.1\Mang2Chieu.csprojAssemblyReference.cache

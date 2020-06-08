@@ -1,0 +1,13 @@
+E:\codegym\Module2\Arraylist\ListDonGian\bin\Debug\netcoreapp3.1\ListDonGian.exe
+E:\codegym\Module2\Arraylist\ListDonGian\bin\Debug\netcoreapp3.1\ListDonGian.deps.json
+E:\codegym\Module2\Arraylist\ListDonGian\bin\Debug\netcoreapp3.1\ListDonGian.runtimeconfig.json
+E:\codegym\Module2\Arraylist\ListDonGian\bin\Debug\netcoreapp3.1\ListDonGian.runtimeconfig.dev.json
+E:\codegym\Module2\Arraylist\ListDonGian\bin\Debug\netcoreapp3.1\ListDonGian.dll
+E:\codegym\Module2\Arraylist\ListDonGian\bin\Debug\netcoreapp3.1\ListDonGian.pdb
+E:\codegym\Module2\Arraylist\ListDonGian\obj\Debug\netcoreapp3.1\ListDonGian.csprojAssemblyReference.cache
+E:\codegym\Module2\Arraylist\ListDonGian\obj\Debug\netcoreapp3.1\ListDonGian.csproj.CoreCompileInputs.cache
+E:\codegym\Module2\Arraylist\ListDonGian\obj\Debug\netcoreapp3.1\ListDonGian.AssemblyInfoInputs.cache
+E:\codegym\Module2\Arraylist\ListDonGian\obj\Debug\netcoreapp3.1\ListDonGian.AssemblyInfo.cs
+E:\codegym\Module2\Arraylist\ListDonGian\obj\Debug\netcoreapp3.1\ListDonGian.dll
+E:\codegym\Module2\Arraylist\ListDonGian\obj\Debug\netcoreapp3.1\ListDonGian.pdb
+E:\codegym\Module2\Arraylist\ListDonGian\obj\Debug\netcoreapp3.1\ListDonGian.genruntimeconfig.cache
